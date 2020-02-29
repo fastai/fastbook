@@ -1,6 +1,8 @@
 # The fastai book
 
-These notebooks cover an introduction to deep learning, fastai, and PyTorch. They are copyright Jeremy Howard and Sylvain Gugger, 2020 onwards.
+These notebooks cover an introduction to deep learning, [fastai](https://docs.fast.ai/), and [PyTorch](https://pytorch.org/). fastai is a layered API for deep learning; for more information, see [the fastai paper](https://www.mdpi.com/2078-2489/11/2/108). Everything in this repo is copyright Jeremy Howard and Sylvain Gugger, 2020 onwards.
+
+These notebooks will be used for [a course we're teaching](https://www.usfca.edu/data-institute/certificates/deep-learning-part-one) in San Francisco from March 2020, and will be available as a MOOC from around July 2020. In addition, our plan is that these notebooks will form the basis of [this book](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527), which you can pre-order. It will not have the same GPL restrictions that are on this draft.
 
 The code in the notebooks and python `.py` files is covered by the GPL v3 license; see the LICENSE file for details.
 
@@ -10,3 +12,4 @@ If you see someone hosting a copy of these materials somewhere else, please let 
 
 This is an early draft. We will be providing a channel for comments and feedback soon.
 
+If you make any pull requests to this repo, then you are assigning copyright of that work to Jeremy Howard and Sylvain Gugger.
