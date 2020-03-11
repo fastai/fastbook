@@ -6,3 +6,4 @@ nbdev>=0.2.12
 pandas
 scikit_learn
 azure-cognitiveservices-search-imagesearch
+sentencepiece
