@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fastai/fastbook/master)
+
 # The fastai book - draft
 
 **Note on PRs right now:** The book has gone through the copywriter at O'Reilly and we are in the process of pushing back all their changes to the draft notebooks. Please refrain from making any PR right now as it will likely conflict with the revised version.
