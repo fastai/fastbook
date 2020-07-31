@@ -1,4 +1,3 @@
-
 # Numpy and pandas by default assume a narrow screen - this fixes that
 from fastai2.vision.all import *
 from nbdev.showdoc import *
