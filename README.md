@@ -1,4 +1,5 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fastai/fastbook/master)
+[<img src="http://cloud.blobcity.net/assets/images/badge.png" height="20" />](https://cloud.blobcity.com/#/ps/shared-cloudbook/15d22cbd-b75b-4306-9aea-1b773a2dbda2)
 
 # The fastai book - draft
 
