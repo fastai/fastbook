@@ -1,4 +1,5 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fastai/fastbook/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fastai/fastbook/master)  
+[English](https://github.com/fastai/fastbook/blob/master/README.md) / [Korean](https://github.com/fastai/fastbook/blob/master/README_ko.md)
 
 # The fastai book - draft
 
