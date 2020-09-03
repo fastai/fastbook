@@ -1,5 +1,6 @@
 import nbformat
-from nbdev.export import read_nb
+from nbdev.export import *
+from nbdev.clean import *
 from fastcore.all import *
 
 _re_header = re.compile(r'^#+\s+\S+')
@@ -21,17 +22,18 @@ def clean_tags(cell):
         cell["source"] = re.sub(r'#\s*' + attr + r'.*?($|\n)', '', cell["source"])
     return cell
 
-def clean_nb(fname, dest):
+def proc_nb(fname, dest):
     nb = read_nb(fname)
     i = get_stop_idx(nb['cells'])
     nb['cells'] = [clean_tags(c) for j,c in enumerate(nb['cells']) if
                    c['cell_type']=='code' or is_header_cell(c) or is_clean_cell(c) or j >= i]
+    clean_nb(nb, clear_all=True)
     with open(dest/fname.name, 'w') as f: nbformat.write(nb, f, version=4)
 
-def clean_all(path='.', dest_path='clean'):
+def proc_all(path='.', dest_path='clean'):
     path,dest_path = Path(path),Path(dest_path)
     fns = [f for f in path.iterdir() if f.suffix == '.ipynb' and not f.name.startswith('_')]
-    for fn in fns: clean_nb(fn, dest=dest_path)
+    for fn in fns: proc_nb(fn, dest=dest_path)
 
-if __name__=='__main__': clean_all()
+if __name__=='__main__': proc_all()
 
