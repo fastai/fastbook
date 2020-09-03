@@ -12,6 +12,6 @@ The remainder (including all markdown cells in the notebooks and other prose) is
 
 If you see someone hosting a copy of these materials somewhere else, please let them know that their actions are not allowed and may lead to legal action. Moreover, they would be hurting the community because we're not likely to release additional materials in this way if people ignore our copyright.
 
-This is an early draft. If you get stuck running notebooks, please search the [fastai-v2 forum](https://forums.fast.ai/c/fastai-users/fastai-v2) for answers, and ask for help there if needed. Please don't use GitHub issues for problems running the notebooks.
+This is an early draft. If you get stuck running notebooks, please search the [fastai-dev forum](https://forums.fast.ai/c/fastai-users/fastai-dev/) for answers, and ask for help there if needed. Please don't use GitHub issues for problems running the notebooks.
 
 If you make any pull requests to this repo, then you are assigning copyright of that work to Jeremy Howard and Sylvain Gugger. (Additionally, if you are making small edits to spelling or text, please specify the name of the file and a very brief description of what you're fixing. It's becoming increasingly difficult for reviewers to know which corrections have already been made. Thank you.)
