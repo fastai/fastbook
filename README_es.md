@@ -3,16 +3,16 @@
 
 # The fastai book
 
-These notebooks cover an introduction to deep learning, [fastai](https://docs.fast.ai/), and [PyTorch](https://pytorch.org/). fastai is a layered API for deep learning; for more information, see [the fastai paper](https://www.mdpi.com/2078-2489/11/2/108). Everything in this repo is copyright Jeremy Howard and Sylvain Gugger, 2020 onwards.
+Una colleción de Jupyter Notebooks que cubren una introducción al aprendizaje profundo, [fastai](https://docs.fast.ai/) y [PyTorch](https://pytorch.org/). fastai es una API en capas para aprendizaje profundo; puede obtener más información en [la publicación](https://www.mdpi.com/2078-2489/11/2/108). Todos los documentos incluidos en este repositorio presentan derechos de autor de Jeremy Howard y Sylvain Gugger, 2020 en adelante.
 
-These notebooks are  used for [a MOOC](https://course.fast.ai) and form the basis of [this book](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527), which is currently available for purchase. It does not have the same GPL restrictions that are on this draft.
+Estos Notebooks son usados para [el cursos en línea masivos y abiertos (MOOC)](https://course.fast.ai) y forman la base del [libro](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527), el cual se encuentra actualmente disponible para su compra. El libro no tiene las mismas restricciones de GPL que se incluyen en este borrador.
 
-The code in the notebooks and python `.py` files is covered by the GPL v3 license; see the LICENSE file for details.
+El código en los Notebooks y en los archivos de python `.py` está cubierto por la licencia GPL v3; consulte el archivo de LICENSE para obtener más detalles.
 
-The remainder (including all markdown cells in the notebooks and other prose) is not licensed for any redistribution or change of format or medium, other than making copies of the notebooks or forking this repo for your own private use. No commercial or broadcast use is allowed. We are making these materials freely available to help you learn deep learning, so please respect our copyright and these restrictions.
+El resto de textos (incluidas todas las celdas de Markdown en los Notebooks) no tienen licencia para su redistribución o cambio de formato o medio, más allá del uso de copias de los Notebooks o bifurcar el repositorio para uso privado. No se permite el uso comercial o de difusión. Ponemos estos materiales a su disposición de forma gratuita para ayudarle a aprender sobre el aprendizaje profundo, así que por favor respete las restricciones y nuestros derechos de autor.
 
-If you see someone hosting a copy of these materials somewhere else, please let them know that their actions are not allowed and may lead to legal action. Moreover, they would be hurting the community because we're not likely to release additional materials in this way if people ignore our copyright.
+Si observa a alguien usando una copia de estos materiales incumpliendo la licencia, por favor infórmele que sus acciones no están permitidas y pueden dar lugar a acciones legales. Además, estarían perjudicando a la comunidad porque es probable que dejemos de publicar materiales adicionales si la gente ignora nuestros derechos de autor.
 
-This is an early draft. If you get stuck running notebooks, please search the [fastai-dev forum](https://forums.fast.ai/c/fastai-users/fastai-dev/) for answers, and ask for help there if needed. Please don't use GitHub issues for problems running the notebooks.
+Este es un borrador inicial. Si encuentra problemas ejecutando los Notebooks, podrá buscar ayuda y respuestas en el [foro fastai-dev](https://forums.fast.ai/c/fastai-users/fastai-dev/). Por favor, no utilice *GitHub issues* para problemas relacionados con la ejecución de Notebooks.
 
-If you make any pull requests to this repo, then you are assigning copyright of that work to Jeremy Howard and Sylvain Gugger. (Additionally, if you are making small edits to spelling or text, please specify the name of the file and a very brief description of what you're fixing. It's becoming increasingly difficult for reviewers to know which corrections have already been made. Thank you.)
+Todo *pull requests* realizado a este repositorio queda asignado bajo derechos de autor a Jeremy Howard y Sylvain Gugger. (Además, si realiza pequeñas modificaciones en la ortografía o el texto, por favor indique el nombre del archivo y una descripción breve de lo que está corrigiendo. A los revisores les resulta cada vez más difícil saber qué correcciones ya se han realizado. Gracias).
