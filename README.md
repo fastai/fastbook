@@ -1,5 +1,5 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fastai/fastbook/master)  
-[English](./README.md) / [Spanish](./README_es.md) / [Korean](./README_ko.md)
+[English](./README.md) / [Spanish](./README_es.md) / [Korean](./README_ko.md) / [Chinese](./README_zh.md)
 
 # The fastai book
 
