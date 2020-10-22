@@ -1,10 +1,9 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fastai/fastbook/master)  
-[English](./README.md) / [Korean](./README_ko.md) /
-[Bengali](./README_bn.md)
+[English](./README.md) / [Spanish](./README_es.md) / [Korean](./README_ko.md) / [Chinese](./README_zh.md) / [Bengali](./README_bn.md) / [Indonesian](./README_id.md)
 
 # The fastai book - draft
 
-이 draft는  [fastai](https://docs.fast.ai/), [PyTorch](https://pytorch.org/) 에 대한 소개를 다루고 있습니다. fastai는 딥러닝을 위한 레이어드 API입니다. fastai에 대한 자세한 정보는 [the fastai paper](https://www.mdpi.com/2078-2489/11/2/108) 를 참고하실 수 있습니다. 이 저장소는 2020년부터 Jeremy Howard와 Sylvain Gugger가 저작권을 갖고 있습니다.
+이 draft는 [fastai](https://docs.fast.ai/), [PyTorch](https://pytorch.org/) 에 대한 소개를 다루고 있습니다. fastai는 딥러닝을 위한 레이어드 API입니다. fastai에 대한 자세한 정보는 [the fastai paper](https://www.mdpi.com/2078-2489/11/2/108) 를 참고하실 수 있습니다. 이 저장소는 2020년부터 Jeremy Howard와 Sylvain Gugger가 저작권을 갖고 있습니다.
 
 이 노트북들은 2020년 3월부터 샌프란시스코에서 [강의하는 과정](https://www.usfca.edu/data-institute/certificates/deep-learning-part-one) 에 사용되며, 2020년 7월경부터는 MOOC 강좌로 이용할 수 있을 것입니다. 우리의 계획은 이 노트북들이 [이 책](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527) 의 기본이 되어 선주문할 수 있게 하는 것입니다. 그 책에는 이 초안에 있는 것과 같은 GPL 규제를 가지고 있지 않을 것입니다.
 

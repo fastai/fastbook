@@ -1,6 +1,5 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fastai/fastbook/master)  
-[English](./README.md) / [Spanish](./README_es.md) / [Korean](./README_ko.md) /
-[Bengali](./README_bn.md)
+[English](./README.md) / [Spanish](./README_es.md) / [Korean](./README_ko.md) / [Chinese](./README_zh.md) / [Bengali](./README_bn.md) / [Indonesian](./README_id.md)
 
 # The fastai book
 
@@ -14,6 +13,6 @@ El resto de textos (incluidas todas las celdas de Markdown en los Notebooks) no 
 
 Si observa a alguien usando una copia de estos materiales incumpliendo la licencia, por favor infórmele que sus acciones no están permitidas y pueden dar lugar a acciones legales. Además, estarían perjudicando a la comunidad porque es probable que dejemos de publicar materiales adicionales si la gente ignora nuestros derechos de autor.
 
-Este es un borrador inicial. Si encuentra problemas ejecutando los Notebooks, podrá buscar ayuda y respuestas en el [foro fastai-dev](https://forums.fast.ai/c/fastai-users/fastai-dev/). Por favor, no utilice *GitHub issues* para problemas relacionados con la ejecución de Notebooks.
+Este es un borrador inicial. Si encuentra problemas ejecutando los Notebooks, podrá buscar ayuda y respuestas en el [foro fastai-dev](https://forums.fast.ai/c/fastai-users/fastai-dev/). Por favor, no utilice _GitHub issues_ para problemas relacionados con la ejecución de Notebooks.
 
-Todo *pull requests* realizado a este repositorio queda asignado bajo derechos de autor a Jeremy Howard y Sylvain Gugger. (Además, si realiza pequeñas modificaciones en la ortografía o el texto, por favor indique el nombre del archivo y una descripción breve de lo que está corrigiendo. A los revisores les resulta cada vez más difícil saber qué correcciones ya se han realizado. Gracias).
+Todo _pull requests_ realizado a este repositorio queda asignado bajo derechos de autor a Jeremy Howard y Sylvain Gugger. (Además, si realiza pequeñas modificaciones en la ortografía o el texto, por favor indique el nombre del archivo y una descripción breve de lo que está corrigiendo. A los revisores les resulta cada vez más difícil saber qué correcciones ya se han realizado. Gracias).
