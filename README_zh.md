@@ -4,9 +4,9 @@
 
 # The fastai book
 
-这些notebook包含了对深度学习， [fastai](https://docs.fast.ai/)， 以及 [PyTorch](https://pytorch.org/)的介绍。fastai是一个用于深度学习的分层API； 要了解更多信息，请阅读 [the fastai paper](https://www.mdpi.com/2078-2489/11/2/108)论文。 本repo的所有内容的版权都属于 Jeremy Howard和Sylvain Gugger，起自2020年。
+这些notebook包含了对深度学习，[fastai](https://docs.fast.ai/)，以及[PyTorch](https://pytorch.org/)的介绍。fastai是一个用于深度学习的分层API；要了解更多信息，请阅读[the fastai paper](https://www.mdpi.com/2078-2489/11/2/108)论文。本repo的所有内容的版权都属于Jeremy Howard和Sylvain Gugger，起自2020年。
 
-这些notebook被用于[一个MOOC课程](https://course.fast.ai)，并且是[这本书](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527)（目前可供购买）的基础。 书籍并没有本稿的GPL限制。
+这些notebook被用于[一个MOOC课程](https://course.fast.ai)，并且是[这本书](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527)（目前可供购买）的基础。书籍并没有本稿的GPL限制。
 
 notebook里的代码以及python的 `.py` 文件受到GPL v3开源协议的保护；更多详情请查看LICENSE文件。
 
