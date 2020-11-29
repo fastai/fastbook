@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import nbformat
 from nbdev.export import *
 from nbdev.clean import *

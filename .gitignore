@@ -1,3 +1,4 @@
+models/
 tmp/
 *.bak
 *.pkl
