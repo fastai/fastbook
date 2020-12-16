@@ -15,4 +15,19 @@ If you see someone hosting a copy of these materials somewhere else, please let 
 
 This is an early draft. If you get stuck running notebooks, please search the [fastai-dev forum](https://forums.fast.ai/c/fastai-users/fastai-dev/) for answers, and ask for help there if needed. Please don't use GitHub issues for problems running the notebooks.
 
-If you make any pull requests to this repo, then you are assigning copyright of that work to Jeremy Howard and Sylvain Gugger. (Additionally, if you are making small edits to spelling or text, please specify the name of the file and a very brief description of what you're fixing. It's becoming increasingly difficult for reviewers to know which corrections have already been made. Thank you.)
+If you make any pull requests to this repo, then you are assigning copyright of that work to Jeremy Howard and Sylvain Gugger. (Additionally, if you are making small edits to spelling or text, please specify the name of the file and a very brief description of what you're fixing. It's difficult for reviewers to know which corrections have already been made. Thank you.)
+
+## Citations
+
+If you wish to cite the book, you may use the following:
+
+```
+@book{howard2020deep,
+title={Deep Learning for Coders with Fastai and Pytorch: AI Applications Without a PhD},
+author={Howard, J. and Gugger, S.},
+isbn={9781492045526},
+url={https://books.google.no/books?id=xd6LxgEACAAJ},
+year={2020},
+publisher={O'Reilly Media, Incorporated}
+}
+```
