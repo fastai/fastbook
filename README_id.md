@@ -15,4 +15,19 @@ Jika anda melihat seseorang menghosting salinan materi ini di tempat lain, beri 
 
 Ini adalah draf awal. Jika anda mengalami kebuntuan saat menjalankan notebook, silakan cari [forum fastai-dev](https://forums.fast.ai/c/fastai-users/fastai-dev/) untuk mendapatkan jawaban, dan mintalah bantuan di sana jika diperlukan. Harap jangan gunakan GitHub issues untuk masalah menjalankan notebook.
 
-Jika anda membuat pull request apa pun ke repo ini, anda memberikan hak cipta atas karya tersebut kepada Jeremy Howard dan Sylvain Gugger. (Selain itu, jika anda membuat pengeditan kecil pada ejaan atau teks, harap sebutkan nama file dan uraian singkat perihal apa saja yang anda perbaiki. Seiring berjalannya waktu, semakin sulit bagi peninjau untuk mengetahui koreksi mana yang telah dilakukan. Terima kasih .)
+Jika anda membuat pull request apa pun ke repo ini, anda memberikan hak cipta atas karya tersebut kepada Jeremy Howard dan Sylvain Gugger. (Selain itu, jika anda membuat pengeditan kecil pada ejaan atau teks, harap sebutkan nama file dan uraian singkat perihal apa saja yang anda perbaiki. Seiring berjalannya waktu, semakin sulit bagi peninjau untuk mengetahui koreksi mana yang telah dilakukan. Terima kasih.)
+
+## Kutipan
+
+Jika Anda ingin mengutip buku tersebut, Anda dapat menggunakan:
+
+```
+@book{howard2020deep,
+title={Deep Learning for Coders with Fastai and Pytorch: AI Applications Without a PhD},
+author={Howard, J. and Gugger, S.},
+isbn={9781492045526},
+url={https://books.google.no/books?id=xd6LxgEACAAJ},
+year={2020},
+publisher={O'Reilly Media, Incorporated}
+}
+```
