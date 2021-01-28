@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+      <title>404 Error | Rock Paper Shotgun</title>
+
+
+
+    <meta name="description" content="PC gaming news, previews, reviews, opinion.">
+
+  <meta property="og:type" content="website">
+    <meta property="og:title" content="Rock Paper Shotgun">
+    <meta property="og:description" content="PC gaming news, previews, reviews, opinion.">
+    <meta property="og:image" content="https://assets2.rockpapershotgun.com/0275_rockpapershotgun-logo-large.png">
+    <meta property="og:url" content="https://www.rockpapershotgun.com/images/16/aug/bastion.jpg/RPSS/resize/760x-1/format/jpg/quality">
+  <meta property="og:site_name" content="Rock Paper Shotgun">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@rockpapershot">
+    <meta name="twitter:creator" content="@rockpapershot">
+    <meta name="twitter:title" content="Rock Paper Shotgun">
+    <meta name="twitter:description" content="PC gaming news, previews, reviews, opinion.">
+      <meta name="twitter:image" content="https://assets2.rockpapershotgun.com/0275_rockpapershotgun-logo-large.png">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/static/22f7eb65c4151f12f26b754ff7453850/icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/22f7eb65c4151f12f26b754ff7453850/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/static/22f7eb65c4151f12f26b754ff7453850/icon/favicon-16x16.png">
+<link rel="mask-icon" href="/static/22f7eb65c4151f12f26b754ff7453850/icon/safari-pinned-tab.svg" color="#e7387d">
+<link rel="shortcut icon" href="/static/22f7eb65c4151f12f26b754ff7453850/icon/favicon.ico">
+<meta name="msapplication-TileColor" content="#e7387d">
+<meta name="theme-color" content="#009c7c">
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "name": "Rock Paper Shotgun",
+  "url": "https://www.rockpapershotgun.com"
+}
+</script>
+
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+
+    function _appendGoogleAnalytics(anonymous) {
+        if (window.gtagDone) return;
+
+        gtag('js', new Date());
+
+        const options = {
+    "dimension4": "0",
+    "dimension5": "0"
+};
+
+        options['link_attribution'] = true;
+
+        if (anonymous) {
+          options['client_storage'] = 'none';
+          options['store_gac'] = false;
+          options['anonymize_ip'] = true;
+
+
+          options['dimension6'] = '1';
+        } else {
+          options['dimension6'] = '0';
+        }
+
+        gtag('config', 'UA-2667859-1', options);
+
+
+        const gaScript = document.createElement('script');
+        gaScript.type = 'text/javascript';
+        gaScript.async = true;
+        gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=UA-2667859-1';
+
+        document.getElementsByTagName('head')[0].appendChild(gaScript);
+        window.gtagDone = true;
+    }
+
+    function appendGoogleAnalytics() {
+      _appendGoogleAnalytics(false);
+    }
+
+    function appendGoogleAnalyticsAnonymous() {
+      _appendGoogleAnalytics(true);
+    }
+
+    window.addEventListener('BrockmanPerformanceCookiesAllowed', appendGoogleAnalytics);
+    window.addEventListener('BrockmanPerformanceCookiesDisallowed', appendGoogleAnalyticsAnonymous);
+  </script>
+
+  <script>
+    window.mainScriptsEvent = document.createEvent('CustomEvent');
+    window.mainScriptsEvent.initCustomEvent('mainScripts');
+  </script>
+  <script defer src="/static/22f7eb65c4151f12f26b754ff7453850/js/main.min.js" onload="window.dispatchEvent(window.mainScriptsEvent)"></script>
+
+<script>
+  window.addEventListener('mainScripts', function() {
+    window.BrockmanLazyLoad = new BrockmanLazyLoad({
+      selector: '[data-lazyload=true], .article img, .article iframe',
+      placeholder: '/static/22f7eb65c4151f12f26b754ff7453850/img/placeholder.png'
+    });
+    window.BrockmanLazyLoad.run();
+  });
+</script>
+<script>
+  window.addEventListener('mainScripts', function() {
+    window.BrockmanLightbox = new BrockmanLightbox({
+      selector: 'a[data-lightbox=true], .article a > img'
+    });
+    window.BrockmanLightbox.run();
+  });
+</script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: '2', c2: '8518622' });
+
+  function appendComscore() {
+    if (window.comscoreDone) return;
+    const s = document.createElement("script");
+    const el = document.getElementsByTagName("script")[0];
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = 'https://sb.scorecardresearch.com/beacon.js';
+    el.parentNode.insertBefore(s, el);
+    window.comscoreDone = true;
+  }
+
+  window.addEventListener('BrockmanTargetingCookiesAllowed', appendComscore);
+</script>
+
+
+  <script>
+    function appendSkimlinks() {
+      if (window.skimlinksDone) return;
+      const skimlinksScript = document.createElement('script');
+      skimlinksScript.type = 'text/javascript';
+      skimlinksScript.async = true;
+      skimlinksScript.src = 'https://s.skimresources.com/js/87431X1560958.skimlinks.js';
+      document.getElementsByTagName('head')[0].appendChild(skimlinksScript);
+      window.skimlinksDone = true;
+    }
+
+    window.addEventListener('BrockmanTargetingCookiesAllowed', appendSkimlinks);
+  </script>
+
+
+  <script defer src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="f6950cfb-6f09-4e7d-8fdf-3415107ca910"></script>
+
+<script>
+  function enableIframes() {
+    const elements = document.querySelectorAll('iframe[data-src]');
+    for (let i = 0; i < elements.length; i ++) {
+      const element = elements[i];
+      if (!element.dataset.src) continue;
+      element.dataset.src = convertYouTubeNoCookieURL(element.dataset.src);
+      if (element.dataset.lazyload !== 'ready')
+        element.setAttribute('src', element.dataset.src);
+    }
+  }
+
+  function enableScripts() {
+    const elements = document.querySelectorAll('script[data-src]');
+    for (let i = 0; i < elements.length; i ++) {
+      const element = elements[i];
+      if (!element.dataset.src) continue;
+      element.setAttribute('src', element.dataset.src);
+    }
+  }
+
+  function showEmbedPlaceholders() {
+    if (window.embedPlaceholdersDone) return;
+    const elements = document.querySelectorAll('.embed_placeholder');
+    for (let i = 0; i < elements.length; i ++) {
+      const element = elements[i];
+      element.style.display = '';
+    }
+    window.embedPlaceholdersDone = true;
+  }
+
+  function convertYouTubeNoCookieURL(src) {
+    if (!src || src === 'undefined') return false;
+    return src.trim().replace(/^(?:https?:)?\/\/(?:www\.)?youtube-nocookie\.com\/embed\/(.+)$/i, 'https://www.youtube.com/embed/$1');
+  }
+
+  function hideTargetingEmbedPlaceholders() {
+    hideEmbedPlaceholders('targeting');
+  }
+
+  function hidePerformanceEmbedPlaceholders() {
+    hideEmbedPlaceholders('performance');
+  }
+
+  function hideEmbedPlaceholders(type) {
+    const identifier = '.embed_placeholder' + (type ? '[data-type="' + type + '"]' : '');
+    const elements = document.querySelectorAll(identifier);
+    for (let i = 0; i < elements.length; i ++) {
+      const element = elements[i];
+      element.style.display = 'none';
+    }
+  }
+
+  function performanceCookiesAllowed() {
+    window.dispatchEvent(new Event('BrockmanPerformanceCookiesAllowed'));
+    hidePerformanceEmbedPlaceholders();
+  }
+
+  function performanceCookiesDisallowed() {
+    window.dispatchEvent(new Event('BrockmanPerformanceCookiesDisallowed'));
+  }
+
+  function targetingCookiesAllowed() {
+    window.dispatchEvent(new Event('BrockmanTargetingCookiesAllowed'));
+    enableIframes();
+    enableScripts();
+    hideTargetingEmbedPlaceholders();
+  }
+
+  function targetingCookiesDisallowed() {
+    window.dispatchEvent(new Event('BrockmanTargetingCookiesDisallowed'));
+  }
+
+
+    function OptanonWrapper() {
+        window.BrockmanAllowedCookies = {
+          performance: OptanonActiveGroups.match(/,2,/) !== null,
+          targeting: OptanonActiveGroups.match(/,4,/) !== null,
+        };
+
+        showEmbedPlaceholders();
+
+        window.BrockmanAllowedCookies.performance ?
+          performanceCookiesAllowed() : performanceCookiesDisallowed();
+
+        window.BrockmanAllowedCookies.targeting ?
+          targetingCookiesAllowed() : targetingCookiesDisallowed();
+
+        window.dispatchEvent(new Event('BrockmanLoadAds'));
+    }
+</script>
+  <style>
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:"";content:none}table{border-collapse:collapse;border-spacing:0}button,input{padding:0;border:none}button,input[type=submit]{cursor:pointer}button,input,select{font-family:inherit;font-size:inherit}img{display:block;max-width:100%}.link_overlay{top:0;right:0;bottom:0;left:0;position:absolute;z-index:1}.link_overlay:hover~.details .name,.link_overlay:hover~.details .prefix,.link_overlay:hover~.details .title{text-decoration:underline}@font-face{font-family:Rubik;font-style:normal;font-weight:400;font-display:block;src:url(/static/fonts/rubik-v10-latin-regular.eot);src:local(""),url(/static/fonts/rubik-v10-latin-regular.eot?#iefix) format("embedded-opentype"),url(/static/fonts/rubik-v10-latin-regular.woff2) format("woff2"),url(/static/fonts/rubik-v10-latin-regular.woff) format("woff"),url(/static/fonts/rubik-v10-latin-regular.ttf) format("truetype"),url(/static/fonts/rubik-v10-latin-regular.svg#Rubik) format("svg")}@font-face{font-family:Rubik;font-style:normal;font-weight:500;font-display:block;src:url(/static/fonts/rubik-v10-latin-500.eot);src:local(""),url(/static/fonts/rubik-v10-latin-500.eot?#iefix) format("embedded-opentype"),url(/static/fonts/rubik-v10-latin-500.woff2) format("woff2"),url(/static/fonts/rubik-v10-latin-500.woff) format("woff"),url(/static/fonts/rubik-v10-latin-500.ttf) format("truetype"),url(/static/fonts/rubik-v10-latin-500.svg#Rubik) format("svg")}@font-face{font-family:Rubik;font-style:normal;font-weight:700;font-display:block;src:url(/static/fonts/rubik-v10-latin-700.eot);src:local(""),url(/static/fonts/rubik-v10-latin-700.eot?#iefix) format("embedded-opentype"),url(/static/fonts/rubik-v10-latin-700.woff2) format("woff2"),url(/static/fonts/rubik-v10-latin-700.woff) format("woff"),url(/static/fonts/rubik-v10-latin-700.ttf) format("truetype"),url(/static/fonts/rubik-v10-latin-700.svg#Rubik) format("svg")}.page_title{font-size:1.6875rem;line-height:1.11111111;color:#000;font-weight:700}.page_title_wrapper{border-bottom:1px solid #00866b;margin:32px auto;padding-bottom:16px;text-align:center}.page_title_wrapper p{font-size:1rem;line-height:1.3125;margin-top:16px}.section_title{font-size:1.4375rem;line-height:1.13043478;color:var(--color);font-weight:700;margin:var(--margin) 0 24px;text-transform:uppercase}.view_archive{margin:var(--margin) 0}@media screen and (max-width:500px){.view_archive .button{width:100%}}.article[data-article-type=features],.article[data-article-type=reviews],.summary[data-article-type=features],.summary[data-article-type=reviews]{--color:#e31c6c;--strap-color:#e31c6c}.article[data-article-type=features] .symbol,.article[data-article-type=reviews] .symbol,.summary[data-article-type=features] .symbol,.summary[data-article-type=reviews] .symbol{background-image:url(/static/img/symbols/rock.svg);display:block}.article[data-premium=true],.summary[data-premium=true]{--color:#44208d;--strap-color:#44208d}.article[data-premium=true] .symbol,.summary[data-premium=true] .symbol{background-image:url(/static/img/symbols/heart.svg);display:block}.overflow{margin-left:-16px;width:calc(100% + 32px);position:relative}.overflow>.summary_items{-moz-column-gap:32px;column-gap:32px;grid-auto-columns:min(275px,75vw);grid-auto-flow:column;grid-template-columns:none;overflow-x:auto;overflow-y:hidden;padding-bottom:16px;padding-left:16px;-ms-scroll-snap-type:x mandatory;scroll-snap-type:x mandatory}.overflow>.summary_items>li{position:relative;scroll-snap-align:center}.overflow>.summary_items>li:last-of-type:after{content:"";height:100%;position:absolute;right:-16px;width:16px}#content,#page_wrapper{position:relative}#content{background:#fff;margin:0 auto;max-width:1260px;width:100%;z-index:1}#content_above,#content_below{overflow:hidden}#content_below .page_content>:first-child{margin-top:0}.page_content{padding:0 16px}body[data-version=hd]{background:#efefef;min-width:1260px}body[data-version=hd][data-ads=true] #content_above{padding-right:316px;position:relative}body[data-version=hd] #content_above{min-height:1066px}body[data-version=hd] .page_content{padding:0 32px}a[data-lightbox=true]{cursor:zoom-in}.lightbox_fullscreen{position:absolute;top:0;right:0;bottom:0;left:0;cursor:zoom-out;position:fixed;z-index:9999;background:rgba(0,0,0,.75);padding:16px;display:flex;align-items:center;justify-content:center}.lightbox_fullscreen img{max-width:100%;max-height:100%}.video_wrapper{position:relative;width:100%;height:0;padding-top:56.25%}.video_wrapper iframe{top:0;right:0;bottom:0;left:0;position:absolute;width:100%;height:100%;margin:0}.nav_main{align-items:flex-start;-moz-column-gap:var(--margin);column-gap:var(--margin);display:grid;grid-template-columns:220px auto 1fr 290px 260px;margin:0 auto;padding:32px 16px;width:1260px}.nav_main .commercial{border-left:1px solid #d0d0d0;border-right:1px solid #d0d0d0;padding:0 var(--margin)}.nav_touch{background:#fff}.nav_touch .touch_bar{display:grid;grid-template-columns:auto repeat(2,66px)}.nav_touch .touch_bar .logo{display:flex;align-items:center;padding:16px;max-width:360px}.nav_touch .touch_bar .logo img{width:100%}.nav_touch .touch_bar .button{align-items:center;border-radius:0;display:flex;flex-direction:column;justify-content:center;margin:0;min-height:66px;min-width:100%;padding:8px;text-decoration:none}.nav_touch .touch_bar .button.search_icon{background:#44208d}.nav_touch .touch_bar .button .icon{flex-grow:1}.nav_touch .touch_bar .button .label{font-size:.8125rem;line-height:1.07692308}.nav_touch .touch_menu{background:#efefef;border-top:1px solid #d0d0d0;display:none;flex-direction:column;flex-grow:1;overflow-y:auto;position:relative;z-index:1}.nav_touch .touch_menu>*{min-height:-webkit-max-content;min-height:-moz-max-content;min-height:max-content}.nav_touch .touch_menu nav{align-items:center;border-bottom:1px solid #d0d0d0;display:flex;flex-grow:1;justify-content:center;padding:16px;text-align:center}.nav_touch .touch_menu nav ul{row-gap:8px}.nav_touch .touch_menu .commercial{background:#fff;padding:16px}.nav_touch .touch_menu .user_profile{background:#fff;border-top:1px solid #d0d0d0;padding:16px}body[data-menu=true]{overflow:hidden}body[data-menu=true] .nav_touch{position:absolute;top:0;right:0;bottom:0;left:0;display:flex;flex-direction:column;position:fixed;z-index:99999}body[data-menu=true] .nav_touch .touch_menu{display:flex}body[data-menu=true] .nav_touch .menu_icon{background:#e31c6c}.nav_trending{font-size:.875rem;line-height:1.21428571;background:#44208d;color:#fff}.nav_trending ul{display:flex;flex-wrap:wrap}.nav_trending li{display:inline-flex;position:relative}.nav_trending li:not(:last-of-type):after{color:inherit;content:"|";margin:auto}.nav_trending a{color:inherit;font-weight:500;padding:8px}body:not([data-version=hd]) .nav_trending{background:#efefef;color:#3d434a;overflow-x:auto}body:not([data-version=hd]) .nav_trending ul{white-space:nowrap;flex-wrap:nowrap}body:not([data-version=hd]) .nav_trending li:last-of-type:after{content:"";height:100%;position:absolute;right:-8px;width:8px}.search_box{height:-webkit-min-content;height:-moz-min-content;height:min-content;position:relative}.search_box:before{-webkit-mask-image:url(/static/vendor/font-awesome/solid/search.svg);mask-image:url(/static/vendor/font-awesome/solid/search.svg);display:inline-block;width:100%;background-color:currentColor;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:100% 100%;mask-size:100% 100%;color:#00866b;content:"";height:100%;left:8px;position:absolute;width:14px}.search_box input{padding-left:30px;background:transparent}.app_header{background:#fff;border-bottom:1px solid #d0d0d0}.app_header .nav_primary{font-size:1.125rem;line-height:1.16666667;font-weight:700}.app_header .nav_primary a{color:#3d434a}.app_header .nav_primary ul{display:grid}.app_header .nav_secondary{font-size:1rem;line-height:1.3125}.app_header .nav_secondary a{color:#3d434a}.app_header .nav_secondary ul{display:grid}.app_header .commercial{flex-direction:column}.app_header .commercial .button.supporter{--color:#44208d}.app_header .user_profile .button{flex:1 0 0}.app_header .actions{display:grid;row-gap:16px}.app_footer{font-size:.875rem;line-height:1.21428571;background:#fff;border-top:1px solid #d0d0d0}.app_footer .nav_wrapper{display:grid;margin:0 auto;max-width:1260px;padding:32px 16px;row-gap:32px}.app_footer .about{display:grid;row-gap:16px}.app_footer .logo img{width:360px}.app_footer nav:not(.social_follow) .label{display:block;font-weight:500;margin-bottom:8px}.app_footer nav:not(.social_follow) ul{display:grid}.app_footer nav:not(.social_follow) a,.app_footer nav:not(.social_follow) button{background:transparent;color:#3d434a;display:block;padding:8px 0}.app_footer nav:not(.social_follow) a:hover,.app_footer nav:not(.social_follow) button:hover{text-decoration:underline}body[data-version=hd] .app_footer .nav_wrapper{-moz-column-gap:var(--margin);column-gap:var(--margin);grid-template-columns:5fr repeat(5,2fr)}body[data-version=hd] .app_footer .logo img{width:220px}.advert_label{text-align:center;display:block}.advert_container{text-align:center;margin:0 auto}.advert_container.outlined{margin:var(--margin) auto;border-bottom:1px solid #d0d0d0}.advert_container.outlined>div:not(:empty){border-top:1px solid #d0d0d0;padding:var(--margin) 0}.advert.mpu{display:flex;justify-content:center}.inlinead{text-align:center;margin:var(--margin) auto}.inlinead_lazyload,.inlinead_lazyloaded{position:relative}.leaderboard_container{position:relative;display:flex;justify-content:center;align-items:center}.leaderboard_container.sticky{position:-webkit-sticky;position:sticky;top:0;z-index:1;width:100%}.leaderboard_container:not(.sticky){width:1260px;height:250px}.low_leaderboard_container,.mpu_container{margin:var(--margin) auto}body:not([data-version=hd]) #sticky_leaderboard{position:fixed;position:-webkit-sticky;position:sticky;bottom:0;width:100%;padding:0;text-align:center;z-index:5000;background:#efefef;-webkit-filter:drop-shadow(0 0 1px rgba(0,0,0,.5));filter:drop-shadow(0 0 1px rgba(0,0,0,.5))}body:not([data-version=hd]) #sticky_leaderboard .leaderboard_inner{margin:0 auto;max-height:50px;width:320px}body:not([data-version=hd]) #sticky_leader_close{background-color:#efefef;border-radius:16px 0 0 0;height:35px;padding:0;position:absolute;right:0;top:-35px;width:35px}body:not([data-version=hd]) #sticky_leader_close .icon{background-color:#000}.sidebar{display:none;top:16px;right:16px}.sidebar,.sidebar .gn_sidebar{position:absolute;width:300px;bottom:0}.sidebar .gn_sidebar{top:1316px}body[data-version=hd] .sidebar{display:flex}body[data-version=hd] .sidebar>.mpu_container{position:absolute;bottom:0;right:0}.advert_label{font-size:.875rem;line-height:1.21428571;color:#767676;margin-bottom:8px}.low_leaderboard_container{border-top:1px solid #d0d0d0;padding-top:var(--margin)}.blue_billywig{align-items:center;display:flex;flex-direction:column}.blue_billywig>.bb_iawr{margin:0 auto 16px}.alert{font-size:.875rem;line-height:1.21428571;border:3px dashed #3d434a;color:#3d434a;display:block;margin:var(--margin) auto;max-width:690px;padding:16px;text-align:center}.alert h2{font-size:1rem;line-height:1.3125;font-weight:500}.alert h2,.alert p{margin:16px auto}.alert h2:first-child,.alert p:first-child{margin-top:0}.alert h2:last-child,.alert p:last-child{margin-bottom:0}.alert.info{border-color:#e31c6c}.alert.info .button{background:#e31c6c}.alert.error{border-color:#e6002a}.alert.error .button{background:#e6002a}.alert.success{border-color:#00866b}.alert.success .button{background:#00866b}.button{font-size:1rem;line-height:1.3125;align-items:center;background:var(--color);border-radius:16px;border:1px solid transparent;color:#fff;display:inline-flex;font-weight:500;justify-content:center;padding:8px 16px;text-align:center}.button.small{font-size:.875rem;line-height:1.21428571;padding:4px 8px;border-radius:12px}.button:hover{text-decoration:underline}.button.outline{background:transparent;border-color:currentColor;color:var(--color)}.button_group{display:flex}.button_group:not(.tabbed){grid-gap:8px}.button_group.tabbed .button:not(:first-of-type){border-top-left-radius:0;border-bottom-left-radius:0}.button_group.tabbed .button:not(:last-of-type){border-top-right-radius:0;border-bottom-right-radius:0}.button_group.tabbed .button.active{background:var(--color);border-color:var(--color);color:#fff}.tabs{-moz-column-gap:16px;column-gap:16px;display:flex;justify-content:center;margin:32px 0;position:relative}.tabs:after{background:var(--color);bottom:0;content:"";height:1px;left:0;position:absolute;right:0}.tabs .button{border-bottom-left-radius:0;border-bottom-right-radius:0;border-left-color:var(--color);border-bottom:none;border-bottom-color:var(--color);border-right-color:var(--color);border-top-color:var(--color);position:relative;z-index:1}.tabs .button.active{background:#fff;color:var(--color)}.tabs .button:not(.active){background:var(--color);color:#fff}.embed_placeholder{display:flex;align-items:center;flex-direction:column;justify-content:center}.embed_placeholder .message{display:block;text-align:center}.embed_placeholder .optanon-show-settings-popup-wrapper{height:auto}.video_wrapper .embed_placeholder{top:0;right:0;bottom:0;left:0;position:absolute}.embed_placeholder{background:#efefef;padding:16px}.embed_placeholder .message{margin-bottom:16px}form label,form span{display:block}form input{padding:8px}form .captcha,form>button,form>fieldset,form>input,form>p{display:block;margin-top:24px}form .captcha:first-child,form>button:first-child,form>fieldset:first-child,form>input:first-child,form>p:first-child{margin-top:0}form input[type=hidden]+button,form input[type=hidden]+fieldset,form input[type=hidden]+input,form input[type=hidden]+p{margin-top:0}form input,form select,form textarea{display:block;width:100%;border:1px solid}form input[type=checkbox],form input[type=submit],form select[type=checkbox],form select[type=submit],form textarea[type=checkbox],form textarea[type=submit]{width:auto}form label,form legend{margin-bottom:8px}form label span{display:inline-block}form .helptext,form>ol,form>ul{margin-top:8px}form>ol li:not(:first-of-type),form>ul li:not(:first-of-type){margin-top:8px}form .form-checkbox{position:relative;padding-left:20px}form .form-checkbox input{position:absolute;top:0;left:0;margin:0}form .errorlist{border:1px solid;padding:8px;margin-top:24px}form p:empty{display:none}form input,form select,form textarea{font-family:Rubik,sans-serif;font-style:normal;font-size:.875rem;line-height:1.21428571;border-color:var(--color);border-radius:4px}form input::-moz-placeholder,form select::-moz-placeholder,form textarea::-moz-placeholder{color:var(--color)}form input:-ms-input-placeholder,form select:-ms-input-placeholder,form textarea:-ms-input-placeholder{color:var(--color)}form input::placeholder,form select::placeholder,form textarea::placeholder{color:var(--color)}form label{font-weight:500}form legend{color:#767676}form .helptext,form>ol,form>ul{font-size:.8125rem;line-height:1.07692308}form .form-checkbox{font-size:.8125rem;line-height:1.07692308;color:#3d434a}form .form-checkbox label{font-weight:400}form .errorlist{color:#e6002a}.placeholder{display:block;background-image:url(/static/img/placeholder.png);background-size:cover;background-position:50%;background-repeat:no-repeat;height:100%}.placeholder,.thumbnail{background-color:#efefef;width:100%}.thumbnail{padding-top:56.25%;height:0;position:relative;overflow:hidden}.thumbnail .placeholder,.thumbnail amp-img,.thumbnail img{top:0;right:0;bottom:0;left:0;position:absolute}.thumbnail amp-img,.thumbnail img{-o-object-fit:cover;object-fit:cover;width:100%;height:100%}.thumbnail img{-o-object-position:center;object-position:center;background-position:50%;background-size:cover}.avatar{background-color:#efefef;border-radius:50%;overflow:hidden}.avatar .avatar_image{display:block;-o-object-fit:cover;object-fit:cover}.avatar .placeholder{background-size:140%}[data-lazyload]:not([data-lazyload=loaded]){background-color:#efefef}.social_list{display:flex;transform:translate(-14px,-8px)}.social_list a{width:44px;height:44px;display:block;color:#00866b}.social_list a:hover{color:#e31c6c}.summary{position:relative}.summary a{color:var(--color)}.summary a:not(.link_overlay){position:relative;z-index:2}.summary .symbol{background-color:var(--color);background-position:50%;background-repeat:no-repeat;background-size:67%;display:none;height:40px;position:absolute;width:40px;z-index:1}@media screen and (min-width:501px){.summary .details{padding-right:24px}}.summary .name,.summary .title{font-size:1.125rem;line-height:1.16666667;color:#000;font-weight:700;margin-top:var(--padding)}.summary .name a,.summary .title a{color:inherit}.summary .strapline{font-size:1rem;line-height:1.3125;margin-top:calc(var(--padding)/2)}.summary .job_title{margin-bottom:var(--padding);margin-top:calc(var(--padding)/2)}.summary .metadata{font-size:.875rem;line-height:1.21428571;-moz-column-gap:calc(var(--padding)/2);column-gap:calc(var(--padding)/2);margin-top:var(--padding)}.summary .metadata>*,.summary .metadata>:after{display:inline-block;vertical-align:top}.summary .author:after{content:", "}.summary .published_at:after{content:" "}.summary .comments a{align-items:center;display:inline-flex}.summary .comments a:before{-webkit-mask-image:url(/static/vendor/font-awesome/regular/comment.svg);mask-image:url(/static/vendor/font-awesome/regular/comment.svg);display:inline-block;width:100%;height:100%;background-color:currentColor;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:90% 90%;mask-size:90% 90%;content:"";height:1em;margin-right:4px;width:1em}.summary .excerpt{font-size:1rem;line-height:1.3125;margin-top:24px}.summary .excerpt aside,.summary .excerpt blockquote,.summary .excerpt code,.summary .excerpt div,.summary .excerpt dl,.summary .excerpt figure,.summary .excerpt h2,.summary .excerpt h3,.summary .excerpt h4,.summary .excerpt h5,.summary .excerpt h6,.summary .excerpt hr,.summary .excerpt iframe,.summary .excerpt img,.summary .excerpt ol,.summary .excerpt p,.summary .excerpt pre,.summary .excerpt samp,.summary .excerpt section,.summary .excerpt table,.summary .excerpt ul{margin:24px auto}.summary .excerpt aside:first-child,.summary .excerpt blockquote:first-child,.summary .excerpt code:first-child,.summary .excerpt div:first-child,.summary .excerpt dl:first-child,.summary .excerpt figure:first-child,.summary .excerpt h2:first-child,.summary .excerpt h3:first-child,.summary .excerpt h4:first-child,.summary .excerpt h5:first-child,.summary .excerpt h6:first-child,.summary .excerpt hr:first-child,.summary .excerpt iframe:first-child,.summary .excerpt img:first-child,.summary .excerpt ol:first-child,.summary .excerpt p:first-child,.summary .excerpt pre:first-child,.summary .excerpt samp:first-child,.summary .excerpt section:first-child,.summary .excerpt table:first-child,.summary .excerpt ul:first-child{margin-top:0}.summary .excerpt aside:last-child,.summary .excerpt blockquote:last-child,.summary .excerpt code:last-child,.summary .excerpt div:last-child,.summary .excerpt dl:last-child,.summary .excerpt figure:last-child,.summary .excerpt h2:last-child,.summary .excerpt h3:last-child,.summary .excerpt h4:last-child,.summary .excerpt h5:last-child,.summary .excerpt h6:last-child,.summary .excerpt hr:last-child,.summary .excerpt iframe:last-child,.summary .excerpt img:last-child,.summary .excerpt ol:last-child,.summary .excerpt p:last-child,.summary .excerpt pre:last-child,.summary .excerpt samp:last-child,.summary .excerpt section:last-child,.summary .excerpt table:last-child,.summary .excerpt ul:last-child{margin-bottom:0}.summary .excerpt h2,.summary .excerpt h3,.summary .excerpt h4,.summary .excerpt h5,.summary .excerpt h6{margin-top:40px}.summary .excerpt iframe,.summary .excerpt img{margin-left:auto;margin-right:auto}.summary .excerpt img{height:auto;width:100%}.summary .excerpt iframe{display:block;width:100%}.summary .excerpt a:not(.button){text-decoration:underline}.summary .excerpt a:not(.button):hover{text-decoration:none}.summary .excerpt em,.summary .excerpt i{font-style:italic}.summary .excerpt h2,.summary .excerpt h3{font-weight:700}.summary .excerpt b,.summary .excerpt h4,.summary .excerpt h5,.summary .excerpt h6,.summary .excerpt strong{font-weight:500}.summary .excerpt h2{font-size:1.6875rem;line-height:1.11111111}.summary .excerpt h3,.summary .excerpt h4{font-size:1.125rem;line-height:1.16666667}.summary .excerpt h5,.summary .excerpt h6{font-size:1rem;line-height:1.3125}.summary .excerpt aside{font-size:.875rem;line-height:1.21428571}@media screen and (min-width:501px){.summary .excerpt aside,.summary .excerpt aside.left{margin-top:0;max-width:300px;clear:both}.summary .excerpt aside:not(.left){border-left:1px solid var(--color);float:right;margin-left:24px;padding-left:16px}.summary .excerpt aside.left{border-right:1px solid var(--color);float:left;margin-right:24px;padding-right:16px}}.summary .excerpt blockquote:not(.twitter-tweet):not(.pullquote){background:#efefef;padding:16px}.summary .excerpt blockquote:not(.twitter-tweet).pullquote{font-size:1.6875rem;line-height:1.11111111;color:var(--color)}@media screen and (min-width:501px){.summary .excerpt blockquote:not(.twitter-tweet).pullquote.left,.summary .excerpt blockquote:not(.twitter-tweet).pullquote.right{margin-top:0;max-width:300px;clear:both}.summary .excerpt blockquote:not(.twitter-tweet).pullquote.right:not(.left){border-left:1px solid var(--color);float:right;margin-left:24px;padding-left:16px}.summary .excerpt blockquote:not(.twitter-tweet).pullquote.left{border-right:1px solid var(--color);float:left;margin-right:24px;padding-right:16px}}.summary .excerpt code,.summary .excerpt pre,.summary .excerpt samp{font-size:.875rem;line-height:1.21428571;font-family:monospace}.summary .excerpt .instagram-media,.summary .excerpt .twitter-tweet{margin-left:auto;margin-right:auto;max-width:540px}.summary .excerpt figcaption{font-size:.875rem;line-height:1.21428571;border-bottom:1px solid #efefef;color:#3d434a;padding:16px 0 8px}.summary .excerpt figcaption:empty{display:none}.summary .excerpt figure figcaption{font-size:.875rem;line-height:1.21428571;border-bottom:1px solid #efefef;color:#3d434a;padding:16px 0 8px}.summary .excerpt figure figcaption:empty{display:none}@media screen and (min-width:501px){.summary .excerpt figure.left,.summary .excerpt figure.right{margin-top:0;max-width:300px;clear:both}.summary .excerpt figure.right:not(.left){border-left:1px solid var(--color);float:right;margin-left:24px;padding-left:16px}.summary .excerpt figure.left{border-right:1px solid var(--color);float:left;margin-right:24px;padding-right:16px}}.summary .excerpt figure[role=group]{display:grid;grid-column-gap:24px;grid-row-gap:24px;grid-template-columns:repeat(2,1fr)}.summary .excerpt figure[role=group] figure{margin:0;width:100%}.summary .excerpt figure[role=group]>figcaption{grid-column:span 2}.summary .excerpt hr{border:none;border-top:1px solid #e31c6c}.summary .excerpt ol,.summary .excerpt ul{position:relative}.summary .excerpt ol li,.summary .excerpt ul li{margin-left:1px}.summary .excerpt ol ol,.summary .excerpt ol ul,.summary .excerpt ul ol,.summary .excerpt ul ul{margin-bottom:8px;margin-top:8px;padding-right:0}.summary .excerpt ol ol li:not(:first-child),.summary .excerpt ol ul li:not(:first-child),.summary .excerpt ul ol li:not(:first-child),.summary .excerpt ul ul li:not(:first-child){margin-top:8px}.summary .excerpt ol li:not(:first-child),.summary .excerpt ul li:not(:first-child){margin-top:8px}.summary .excerpt ul>li{list-style:disc}.summary .excerpt dl,.summary .excerpt ol,.summary .excerpt ul{margin-left:auto;margin-right:auto}.summary .excerpt>ol,.summary .excerpt>ul{padding-left:1rem}.summary .excerpt ul{padding-left:1rem}.summary .excerpt ol{list-style:decimal;padding-left:1rem}.summary .excerpt ol ol{list-style-type:lower-roman}.summary .excerpt ol ul,.summary .excerpt ul ul{list-style:circle}.summary .excerpt dt{font-style:italic}.summary .excerpt dt:not(:first-child){margin-top:16px}.summary .excerpt dd:not(:first-child){margin-top:8px}.summary .excerpt dl dl{padding-left:1rem;padding-right:0}.summary .excerpt dl dl:not(:first-child){margin-top:16px}.summary .excerpt table{font-size:.875rem;line-height:1.21428571;border-spacing:0;display:block;margin-left:auto;margin-right:auto;overflow-x:auto;width:100%}.summary .excerpt table caption:not(:last-child){margin-bottom:24px}.summary .excerpt td,.summary .excerpt th{padding:8px;text-align:left}.summary .excerpt td:empty,.summary .excerpt th:empty{padding:0}.summary .excerpt th{background:var(--color);color:#fff;font-weight:700}.summary .excerpt tr:nth-of-type(odd){background:#efefef}.summary .excerpt tfoot td{background:#d0d0d0}.summary .excerpt:before{border-top:1px solid var(--color);content:"";display:block;margin-bottom:24px;max-width:96px}.summary .prefix{color:var(--color)}.summary[data-size=large]{padding-bottom:32px}.summary[data-size=large] .thumbnail:after{background:#fff;content:"";position:absolute;top:-1px;right:-1px;bottom:-1px;left:-1px;border:1px solid transparent;-webkit-clip-path:polygon(0 97%,8% 83%,92% 100%,0 100%);clip-path:polygon(0 97%,8% 83%,92% 100%,0 100%)}.summary[data-size=large]:after{border-bottom:1px solid #d0d0d0;bottom:0;content:"";display:block;left:0;position:absolute;right:0}.summary[data-size=large] .name,.summary[data-size=large] .title{font-size:1.4375rem;line-height:1.13043478}.summary[data-size=medium]{display:grid;-moz-column-gap:32px;column-gap:32px;align-items:center;grid-template-columns:auto 275px}.summary[data-size=medium] .thumbnail:after{background:#fff;content:"";position:absolute;top:-1px;right:-1px;bottom:-1px;left:-1px;border:1px solid transparent;-webkit-clip-path:polygon(0 40px,0 100%,7% 77%);clip-path:polygon(0 40px,0 100%,7% 77%)}.summary[data-size=medium] .details,.summary[data-size=medium] .thumbnail{grid-row:1}.summary[data-size=medium] .details{padding-right:0}.summary[data-size=medium] .name,.summary[data-size=medium] .title{margin-top:0}.summary[data-size=medium] .symbol{top:0}.summary[data-size=medium] .thumbnail{grid-column:2}.summary[data-size=medium] .details{grid-column:1}.summary[data-size=medium] .symbol{right:275px;transform:translateX(100%)}.summary[data-size=small] .thumbnail:after{background:#fff;content:"";position:absolute;top:-1px;right:-1px;bottom:-1px;left:-1px;border:1px solid transparent;-webkit-clip-path:polygon(0 97%,8% 83%,92% 100%,0 100%);clip-path:polygon(0 97%,8% 83%,92% 100%,0 100%)}.summary[data-size=minimal] .name,.summary[data-size=minimal] .title{margin-top:0}body:not([data-version=hd]) .summary[data-size=large]{margin-left:-16px;width:calc(100% + 32px)}body:not([data-version=hd]) .summary[data-size=large] .details{padding:0 16px}body:not([data-version=hd]) .summary[data-size=large]:after{left:16px;right:16px}.user_profile.signed_in{align-items:flex-start;-moz-column-gap:12px;column-gap:12px;display:grid;grid-template-columns:auto 1fr;row-gap:8px}.user_profile.signed_in .avatar{grid-row:span 2;height:50px;width:50px}.user_profile.signed_in .label{display:block;margin-bottom:4px}.username .name{word-break:break-all}.username .scrim:before{content:"#"}.username .flair:before{content:"("}.username .flair:after{content:")"}.user_profile .label{font-size:.8125rem;line-height:1.07692308}.username .name{font-size:.875rem;line-height:1.21428571;font-weight:700}.username .scrim{color:#767676}.username .flair,.username .scrim{font-size:.8125rem;line-height:1.07692308}.username .flair{color:var(--color)}.username .flair.supporter{--color:#44208d}.username .flair.staff{--color:#e31c6c}.icon{display:inline-block;width:100%;height:100%;background-color:currentColor;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:65% 65%;mask-size:65% 65%}.icon[data-type=brands][data-icon=discord]{-webkit-mask-image:url(/static/vendor/font-awesome/brands/discord.svg);mask-image:url(/static/vendor/font-awesome/brands/discord.svg)}.icon[data-type=brands][data-icon=facebook-f]{-webkit-mask-image:url(/static/vendor/font-awesome/brands/facebook-f.svg);mask-image:url(/static/vendor/font-awesome/brands/facebook-f.svg)}.icon[data-type=brands][data-icon=instagram]{-webkit-mask-image:url(/static/vendor/font-awesome/brands/instagram.svg);mask-image:url(/static/vendor/font-awesome/brands/instagram.svg)}.icon[data-type=brands][data-icon=linkedin]{-webkit-mask-image:url(/static/vendor/font-awesome/brands/linkedin.svg);mask-image:url(/static/vendor/font-awesome/brands/linkedin.svg)}.icon[data-type=brands][data-icon=pinterest]{-webkit-mask-image:url(/static/vendor/font-awesome/brands/pinterest.svg);mask-image:url(/static/vendor/font-awesome/brands/pinterest.svg)}.icon[data-type=brands][data-icon=reddit]{-webkit-mask-image:url(/static/vendor/font-awesome/brands/reddit.svg);mask-image:url(/static/vendor/font-awesome/brands/reddit.svg)}.icon[data-type=brands][data-icon=tumblr]{-webkit-mask-image:url(/static/vendor/font-awesome/brands/tumblr.svg);mask-image:url(/static/vendor/font-awesome/brands/tumblr.svg)}.icon[data-type=brands][data-icon=twitch]{-webkit-mask-image:url(/static/vendor/font-awesome/brands/twitch.svg);mask-image:url(/static/vendor/font-awesome/brands/twitch.svg)}.icon[data-type=brands][data-icon=twitter]{-webkit-mask-image:url(/static/vendor/font-awesome/brands/twitter.svg);mask-image:url(/static/vendor/font-awesome/brands/twitter.svg)}.icon[data-type=brands][data-icon=whatsapp]{-webkit-mask-image:url(/static/vendor/font-awesome/brands/whatsapp.svg);mask-image:url(/static/vendor/font-awesome/brands/whatsapp.svg)}.icon[data-type=brands][data-icon=youtube]{-webkit-mask-image:url(/static/vendor/font-awesome/brands/youtube.svg);mask-image:url(/static/vendor/font-awesome/brands/youtube.svg)}.icon[data-type=solid][data-icon=angle-double-left]{-webkit-mask-image:url(/static/vendor/font-awesome/solid/angle-double-left.svg);mask-image:url(/static/vendor/font-awesome/solid/angle-double-left.svg)}.icon[data-type=solid][data-icon=angle-left]{-webkit-mask-image:url(/static/vendor/font-awesome/solid/angle-left.svg);mask-image:url(/static/vendor/font-awesome/solid/angle-left.svg)}.icon[data-type=solid][data-icon=angle-right]{-webkit-mask-image:url(/static/vendor/font-awesome/solid/angle-right.svg);mask-image:url(/static/vendor/font-awesome/solid/angle-right.svg)}.icon[data-type=solid][data-icon=angle-double-right]{-webkit-mask-image:url(/static/vendor/font-awesome/solid/angle-double-right.svg);mask-image:url(/static/vendor/font-awesome/solid/angle-double-right.svg)}.icon[data-type=solid][data-icon=bars]{-webkit-mask-image:url(/static/vendor/font-awesome/solid/bars.svg);mask-image:url(/static/vendor/font-awesome/solid/bars.svg)}.icon[data-type=solid][data-icon=envelope]{-webkit-mask-image:url(/static/vendor/font-awesome/solid/envelope.svg);mask-image:url(/static/vendor/font-awesome/solid/envelope.svg)}.icon[data-type=solid][data-icon=external-link-alt]{-webkit-mask-image:url(/static/vendor/font-awesome/solid/external-link-alt.svg);mask-image:url(/static/vendor/font-awesome/solid/external-link-alt.svg)}.icon[data-type=solid][data-icon=rss]{-webkit-mask-image:url(/static/vendor/font-awesome/solid/rss.svg);mask-image:url(/static/vendor/font-awesome/solid/rss.svg)}.icon[data-type=solid][data-icon=search]{-webkit-mask-image:url(/static/vendor/font-awesome/solid/search.svg);mask-image:url(/static/vendor/font-awesome/solid/search.svg)}.icon[data-type=solid][data-icon=store]{-webkit-mask-image:url(/static/vendor/font-awesome/solid/store.svg);mask-image:url(/static/vendor/font-awesome/solid/store.svg)}.icon[data-type=solid][data-icon=times]{-webkit-mask-image:url(/static/vendor/font-awesome/solid/times.svg);mask-image:url(/static/vendor/font-awesome/solid/times.svg)}:root{--color:#00866b;--strap-color:#3d434a;--padding:16px;--margin:48px}@media screen and (max-width:500px){:root{--padding:12px;--margin:32px}}*{box-sizing:border-box}html{font-size:16px}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;font-family:Rubik,sans-serif;font-style:normal;color:#3d434a}a{color:var(--color);cursor:pointer;text-decoration:none}a:hover{text-decoration:underline}strong{font-weight:500}  </style>
+
+        <link rel="canonical" href="https://www.rockpapershotgun.com/images/16/aug/bastion.jpg/RPSS/resize/760x-1/format/jpg/quality">
+
+      <link rel="alternate" type="application/rss+xml" href="/feed">
+  </head>
+  <body
+      data-version="hd"
+      data-page="error"
+      data-ads="false"
+      data-affiliates="true"
+      data-menu="false"
+  >
+    <div id="app_wrapper">
+        <header class="app_header">
+  <nav class="nav_trending">
+    <ul>
+        <li>
+          <a href="https://www.rockpapershotgun.com/best-free-pc-games-2020">The best free games on PC in 2020</a>
+        </li>
+        <li>
+          <a href="https://www.rockpapershotgun.com/best-graphics-card-2021">Best graphics cards 2021: the best GPUs for gaming</a>
+        </li>
+        <li>
+          <a href="https://www.rockpapershotgun.com/best-warzone-loadout">Best Warzone loadouts and top class setups</a>
+        </li>
+        <li>
+          <a href="https://www.rockpapershotgun.com/cyberpunk-2077-walkthrough-hub-all-of-our-guides-in-one-handy-place">Cyberpunk 2077 walkthrough hub: all of our guides in one handy place</a>
+        </li>
+    </ul>
+  </nav>
+  <nav class="nav_main">
+
+<a
+  href="https://www.rockpapershotgun.com"
+  class="logo"
+>
+    <img src="https://assets2.rockpapershotgun.com/0275_rockpapershotgun-logo.svg" alt="Rock Paper Shotgun logo">
+</a>
+
+<nav class="nav_primary">
+    
+    <ul>
+              <li>
+                <a
+                  href="/latest"
+                  data-active="false"
+                >
+                  Latest
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/news"
+                  data-active="false"
+                >
+                  News
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/reviews"
+                  data-active="false"
+                >
+                  Reviews
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/hardware"
+                  data-active="false"
+                >
+                  Hardware
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/features"
+                  data-active="false"
+                >
+                  Features
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/videos"
+                  data-active="false"
+                >
+                  Videos
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/guides"
+                  data-active="false"
+                >
+                  Guides
+                </a>
+              </li>
+    </ul>
+</nav>
+
+<nav class="nav_secondary">
+    
+    <ul>
+              <li>
+                <a
+                  href="/topics/bestest-bests"
+                  data-active="false"
+                >
+                  Bestest Bests
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/topics/free-games"
+                  data-active="false"
+                >
+                  Free games
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/supporters"
+                  data-active="false"
+                >
+                  Supporters
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/deals"
+                  data-active="false"
+                >
+                  Deals
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/podcasts"
+                  data-active="false"
+                >
+                  Podcasts
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://forum.rockpapershotgun.com"
+                  data-active="false"
+                >
+                  Forum
+                </a>
+              </li>
+    </ul>
+</nav>
+<div class="commercial button_group">
+  <a href="/support-us" class="button supporter">
+    Support us
+  </a>
+
+  <a href="/newsletter" class="button newsletter">
+    Join our newsletter
+  </a>
+
+  <a
+    href="https://teespring.com/en-GB/stores/rockpapershotgun/"
+    target="_blank"
+    rel="noopener"
+    class="button store"
+  >
+    Visit our store
+  </a>
+</div>
+      <div class="actions">
+  <form class="search_box" action="/search">
+    <input type="text" name="q" aria-label="Search" placeholder="Search">
+  </form>
+
+  <div class="user_profile signed_out">
+    <div class="button_group">
+      <a class="button small create_account" href="/community/account/create">Create account</a>
+      <a class="button small outline login" href="/community/account/login">Sign in</a>
+    </div>
+  </div>
+      </div>
+  </nav>
+        </header>
+
+        <main id="page_wrapper">
+
+              <div id="content">
+  <div id="content_above">
+
+        <div class="page_content">
+            <header class="page_title_wrapper">
+                <h1 class="page_title">404 Error</h1>
+            </header>
+
+  <span class="alert error">Page not found</span>
+      </div>
+
+
+  </div>
+
+  <div id="content_below">
+      <div class="page_content">
+      </div>
+  </div>
+            </div>
+
+        </main>
+
+        <footer class="app_footer">
+  <div class="nav_wrapper">
+      <div class="about">
+
+<a
+  href="https://www.rockpapershotgun.com"
+  class="logo"
+>
+    <img src="https://assets2.rockpapershotgun.com/0275_rockpapershotgun-logo.svg" alt="Rock Paper Shotgun logo">
+</a>
+  <form class="search_box" action="/search">
+    <input type="text" name="q" aria-label="Search" placeholder="Search">
+  </form>
+
+<p>Copyright &copy; 2021 Gamer Network Limited, a ReedPop company.</p>
+<p>All rights reserved. No part of this site or its content may be reproduced without the permission of the copyright holder.</p>
+
+  <nav class="social_follow">
+    <ul class="social_list">
+          <li>
+            <a
+              href="https://www.facebook.com/rockpapershot"
+              class="social_icon"
+              data-type="facebook"
+              data-action="follow"
+              target="_blank"
+              rel="noopener"
+            >
+                
+
+
+      <span
+      class="icon"
+      data-icon="facebook-f"
+      data-type="brands"
+        title="Check us out on Facebook"
+    ></span>
+
+
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/rockpapershot"
+              class="social_icon"
+              data-type="twitter"
+              data-action="follow"
+              target="_blank"
+              rel="noopener"
+            >
+                
+
+
+      <span
+      class="icon"
+      data-icon="twitter"
+      data-type="brands"
+        title="Check us out on Twitter"
+    ></span>
+
+
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/rockpapershot"
+              class="social_icon"
+              data-type="instagram"
+              data-action="follow"
+              target="_blank"
+              rel="noopener"
+            >
+                
+
+
+      <span
+      class="icon"
+      data-icon="instagram"
+      data-type="brands"
+        title="Check us out on Instagram"
+    ></span>
+
+
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UC5bKSAZBvV9AKlBJPG0Py-A"
+              class="social_icon"
+              data-type="youtube"
+              data-action="follow"
+              target="_blank"
+              rel="noopener"
+            >
+                
+
+
+      <span
+      class="icon"
+      data-icon="youtube"
+      data-type="brands"
+        title="Check us out on YouTube"
+    ></span>
+
+
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.twitch.tv/rockpapershotgun"
+              class="social_icon"
+              data-type="twitch"
+              data-action="follow"
+              target="_blank"
+              rel="noopener"
+            >
+                
+
+
+      <span
+      class="icon"
+      data-icon="twitch"
+      data-type="brands"
+        title="Check us out on Twitch"
+    ></span>
+
+
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/company/rock-paper-shotgun-ltd"
+              class="social_icon"
+              data-type="linkedin"
+              data-action="follow"
+              target="_blank"
+              rel="noopener"
+            >
+                
+
+
+      <span
+      class="icon"
+      data-icon="linkedin"
+      data-type="brands"
+        title="Check us out on LinkedIn"
+    ></span>
+
+
+            </a>
+          </li>
+          <li>
+            <a
+              href="/feed"
+              class="social_icon"
+              data-type="rss"
+              data-action="follow"
+                rel="alternate"
+                type="application/rss+xml"
+              target="_blank"
+              rel="noopener"
+            >
+                
+
+
+      <span
+      class="icon"
+      data-icon="rss"
+      data-type="solid"
+        title="Check out our RSS feed"
+    ></span>
+
+
+            </a>
+          </li>
+    </ul>
+  </nav>
+      </div>
+
+
+<nav class="nav_primary">
+        <span class="label">Explore</span>
+
+    <ul>
+              <li>
+                <a
+                  href="/latest"
+                  data-active="false"
+                >
+                  Latest
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/news"
+                  data-active="false"
+                >
+                  News
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/reviews"
+                  data-active="false"
+                >
+                  Reviews
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/hardware"
+                  data-active="false"
+                >
+                  Hardware
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/features"
+                  data-active="false"
+                >
+                  Features
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/videos"
+                  data-active="false"
+                >
+                  Videos
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/guides"
+                  data-active="false"
+                >
+                  Guides
+                </a>
+              </li>
+    </ul>
+</nav>
+
+<nav class="nav_secondary">
+        <span class="label">Popular Now</span>
+
+    <ul>
+              <li>
+                <a
+                  href="/topics/bestest-bests"
+                  data-active="false"
+                >
+                  Bestest Bests
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/topics/free-games"
+                  data-active="false"
+                >
+                  Free games
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/supporters"
+                  data-active="false"
+                >
+                  Supporters
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/deals"
+                  data-active="false"
+                >
+                  Deals
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/podcasts"
+                  data-active="false"
+                >
+                  Podcasts
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://forum.rockpapershotgun.com"
+                  data-active="false"
+                >
+                  Forum
+                </a>
+              </li>
+    </ul>
+</nav>
+
+<nav class="nav_helpful">
+        <span class="label">Helpful Links</span>
+
+    <ul>
+                <li>
+                <a
+                  href="/about"
+                  data-active="false"
+                >
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/authors"
+                  data-active="false"
+                >
+                  Authors
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/code-of-conduct"
+                  data-active="false"
+                >
+                  Code of Conduct
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://privacy.reedexpo.com/en-gb/cookie-policy.html"
+                  data-active="false"
+                >
+                  Cookie Policy
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/editorial-policy"
+                  data-active="false"
+                >
+                  Editorial Policy
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://privacy.reedexpo.com/en-gb/ccpa.html"
+                  data-active="false"
+                >
+                  Notice to California Residents
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://privacy.reedexpo.com/en-gb.html"
+                  data-active="false"
+                >
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/review-policy"
+                  data-active="false"
+                >
+                  Review Policy
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/terms-and-conditions"
+                  data-active="false"
+                >
+                  Terms &amp; Conditions
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:contact@rockpapershotgun.com"
+                  data-active="false"
+                >
+                  Contact Us
+                </a>
+              </li>
+
+
+      <li>
+        <button class="optanon-show-settings">
+          Cookie Settings
+        </button>
+      </li>
+    </ul>
+</nav>
+  
+<nav class="nav_sites">
+        <span class="label">ReedPop</span>
+
+    <ul>
+              <li>
+                <a
+                  href="https://www.cosplaycentral.com"
+                  data-active="false"
+                >
+                  Cosplay Central
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.dicebreaker.com"
+                  data-active="false"
+                >
+                  Dicebreaker
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.eurogamer.net"
+                  data-active="false"
+                >
+                  Eurogamer
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.gamesindustry.biz"
+                  data-active="false"
+                >
+                  GamesIndustry.biz
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.jelly.deals"
+                  data-active="false"
+                >
+                  Jelly Deals
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.metabomb.net"
+                  data-active="false"
+                >
+                  Metabomb
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.nintendolife.com"
+                  data-active="false"
+                >
+                  Nintendo Life
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.pushsquare.com"
+                  data-active="false"
+                >
+                  Push Square
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.usgamer.net"
+                  data-active="false"
+                >
+                  USgamer
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.vg247.com"
+                  data-active="false"
+                >
+                  VG247
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.videogameschronicle.com"
+                  data-active="false"
+                >
+                  VGC
+                </a>
+              </li>
+    </ul>
+</nav>
+
+
+<nav class="nav_events">
+        <span class="label">Events</span>
+
+    <ul>
+              <li>
+                <a
+                  href="https://www.egx.net/egx"
+                  data-active="false"
+                >
+                  EGX
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.egx.net/rezzed"
+                  data-active="false"
+                >
+                  EGX Rezzed
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.mcmcomiccon.com"
+                  data-active="false"
+                >
+                  MCM Comic Con
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.paxsite.com"
+                  data-active="false"
+                >
+                  PAX
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.starwarscelebration.com"
+                  data-active="false"
+                >
+                  Star Wars Celebration
+                </a>
+              </li>
+    </ul>
+</nav>  </div>
+        </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+<script type="text/javascript" async=true>
+(function() {
+  var host = window.location.hostname;
+  var element = document.createElement('script');
+  var firstScript = document.getElementsByTagName('script')[0];
+  var url = 'https://quantcast.mgr.consensu.org'
+    .concat('/choice/', 'qQv-cquBEL7ht', '/', host, '/choice.js')
+  var uspTries = 0;
+  var uspTriesLimit = 3;
+  element.async = true;
+  element.type = 'text/javascript';
+  element.src = url;
+
+  firstScript.parentNode.insertBefore(element, firstScript);
+
+  function makeStub() {
+    var TCF_LOCATOR_NAME = '__tcfapiLocator';
+    var queue = [];
+    var win = window;
+    var cmpFrame;
+
+    function addFrame() {
+      var doc = win.document;
+      var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+      if (!otherCMP) {
+        if (doc.body) {
+          var iframe = doc.createElement('iframe');
+
+          iframe.style.cssText = 'display:none';
+          iframe.name = TCF_LOCATOR_NAME;
+          doc.body.appendChild(iframe);
+        } else {
+          setTimeout(addFrame, 5);
+        }
+      }
+      return !otherCMP;
+    }
+
+    function tcfAPIHandler() {
+      var gdprApplies;
+      var args = arguments;
+
+      if (!args.length) {
+        return queue;
+      } else if (args[0] === 'setGdprApplies') {
+        if (
+          args.length > 3 &&
+          args[2] === 2 &&
+          typeof args[3] === 'boolean'
+        ) {
+          gdprApplies = args[3];
+          if (typeof args[2] === 'function') {
+            args[2]('set', true);
+          }
+        }
+      } else if (args[0] === 'ping') {
+        var retr = {
+          gdprApplies: gdprApplies,
+          cmpLoaded: false,
+          cmpStatus: 'stub'
+        };
+
+        if (typeof args[2] === 'function') {
+          args[2](retr);
+        }
+      } else {
+        queue.push(args);
+      }
+    }
+
+    function postMessageEventHandler(event) {
+      var msgIsString = typeof event.data === 'string';
+      var json = {};
+
+      try {
+        if (msgIsString) {
+          json = JSON.parse(event.data);
+        } else {
+          json = event.data;
+        }
+      } catch (ignore) {}
+
+      var payload = json.__tcfapiCall;
+
+      if (payload) {
+        window.__tcfapi(
+          payload.command,
+          payload.version,
+          function(retValue, success) {
+            var returnMsg = {
+              __tcfapiReturn: {
+                returnValue: retValue,
+                success: success,
+                callId: payload.callId
+              }
+            };
+            if (msgIsString) {
+              returnMsg = JSON.stringify(returnMsg);
+            }
+            event.source.postMessage(returnMsg, '*');
+          },
+          payload.parameter
+        );
+      }
+    }
+
+    while (win) {
+      try {
+        if (win.frames[TCF_LOCATOR_NAME]) {
+          cmpFrame = win;
+          break;
+        }
+      } catch (ignore) {}
+
+      if (win === window.top) {
+        break;
+      }
+      win = win.parent;
+    }
+    if (!cmpFrame) {
+      addFrame();
+      win.__tcfapi = tcfAPIHandler;
+      win.addEventListener('message', postMessageEventHandler, false);
+    }
+  };
+
+  makeStub();
+
+  var uspStubFunction = function() {
+    var arg = arguments;
+    if (typeof window.__uspapi !== uspStubFunction) {
+      setTimeout(function() {
+        if (typeof window.__uspapi !== 'undefined') {
+          window.__uspapi.apply(window.__uspapi, arg);
+        }
+      }, 500);
+    }
+  };
+
+  var checkIfUspIsReady = function() {
+    uspTries++;
+    if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+      console.warn('USP is not accessible');
+    } else {
+      clearInterval(uspInterval);
+    }
+  };
+
+  if (typeof window.__uspapi === 'undefined') {
+    window.__uspapi = uspStubFunction;
+    var uspInterval = setInterval(checkIfUspIsReady, 6000);
+  }
+})();
+</script>
+<!-- End Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+
+
+
+
+<script data-cfasync="false" type="text/javascript">
+    var freestar = freestar || {};
+    freestar.hitTime = Date.now();
+    freestar.queue = freestar.queue || [];
+    freestar.config = freestar.config || {};
+    freestar.debug = window.location.search.indexOf('fsdebug') === -1 ? false : true;
+
+    freestar.config.enabled_slots = [
+        "CreativeUncut_728x90_970x90_970x250_320x50_ATF",
+        "CreativeUncut_728x90_970x90_970x250_320x50_BTF",
+        "CreativeUncut_300x600_300x250_BTF"
+    ];
+
+    !function(a,b){var c=b.getElementsByTagName("script")[0],d=b.createElement("script"),e="https://a.pub.network/creativeuncut";e+=freestar.debug?"/qa/pubfig.min.js":"/pubfig.min.js",d.async=!0,d.src=e,c.parentNode.insertBefore(d,c)}(window,document);
+
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1961410-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-1961410-1');
+</script>
+
+<meta name=viewport content="width=device-width, initial-scale=1"><title>McCree Illustration - Overwatch Art Gallery</title>
+<meta name="description" content="View an image titled 'McCree Illustration' in our Overwatch art gallery featuring official character designs, concept art, and promo pictures.">
+<link rel="stylesheet" href="../gstyle.css?v=313" type="text/css">
+</head>
+
+<body>
+
+
+<div id="gmain">
+<div id="gbody">
+
+<div id="ghead">
+<div id="ghd_l">
+<div id="glogo_o"><a id="glogo_i" href="https://www.creativeuncut.com" title="Creative Uncut | Video Game Art">Video Game Art Library</a></div>
+</div>
+<div id="ghd_r">
+<div style="display: inline-block; width: 100%; max-width: 100%;">
+<div id="g_abox">
+
+<!-- Tag ID: CreativeUncut_728x90_970x90_970x250_320x50_ATF -->
+<div align="center" id="CreativeUncut_728x90_970x90_970x250_320x50_ATF">
+    <script data-cfasync="false" type='text/javascript'>
+        freestar.queue.push(function () { googletag.display('CreativeUncut_728x90_970x90_970x250_320x50_ATF'); });
+    </script>
+</div>
+
+</div>
+</div></div>
+</div>
+
+<div id="gbar">
+<div id="ggal"><a href="../game-art-galleries.html">Video Game Concept Art</a> &nbsp;&nbsp; <a href="https://www.creativeuncut.com/gallery-01/art-gallery-access-keys.html">Access Keys</a></div>
+<div id="gpin"><a data-pin-do="buttonBookmark" data-pin-save="true" href="https://www.pinterest.com/pin/create/button/"></a></div></div>
+
+
+<div id="g_nav">
+<div id="g_nav_l"><a href="ow-mccree-gun.html" accesskey="b"><img src="../imgs/prev.gif" alt="Previous Picture"></a></div>
+<div id="g_nav_c"><a href="../art_overwatch_a.html">Overwatch Art Gallery</a></div>
+<div id="g_nav_r"><a href="ow-mei-concept.html" accesskey="n"><img src="../imgs/next.gif" alt="Next Picture"></a></div>
+</div>
+
+<div id="g_img_t"><h1>McCree Illustration</h1></div>
+<div id="g_img">
+<img src="art/ow-mccree-illust.jpg" alt="McCree Illustration from Overwatch">
+</div>
+
+
+<div id="gbtm1">
+<div id="gbtm2">
+
+<!-- Tag ID: CreativeUncut_728x90_970x90_970x250_320x50_BTF -->
+<div align="center" id="CreativeUncut_728x90_970x90_970x250_320x50_BTF">
+    <script data-cfasync="false" type='text/javascript'>
+        freestar.queue.push(function () { googletag.display('CreativeUncut_728x90_970x90_970x250_320x50_BTF'); });
+    </script>
+</div>
+
+</div>
+</div>
+
+</div><!-- gbody end -->
+<div id="footer_p"></div>
+</div><!-- gmain end -->
+
+
+<div id="footer">
+
+<div id="footer_i">
+
+<div id="footer_r">
+	<!-- Tag ID: CreativeUncut_300x600_300x250_BTF -->
+	<div align="center" id="CreativeUncut_300x600_300x250_BTF">
+		<script data-cfasync="false" type='text/javascript'>
+			freestar.queue.push(function () { googletag.display('CreativeUncut_300x600_300x250_BTF'); });
+		</script>
+	</div>
+</div>
+
+<div id="footer_m">
+	<div id="soc_icons"><a href="https://follow.it/creativeuncut" target="_blank" title="Follow via RSS">&nbsp;</a><a href="https://www.instagram.com/creativeuncutdotcom/" target="_blank" title="Follow via Instagram">&nbsp;</a><a href="http://www.facebook.com/creativeuncut" target="_blank" title="Follow via Facebook">&nbsp;</a><a href="http://www.twitter.com/creativeuncut" target="_blank" title="Follow via Twitter">&nbsp;</a><a href="http://www.pinterest.com/creativeuncut" target="_blank" title="Follow via Pinterest">&nbsp;</a></div>
+	<div id="soc_txt">CU offers 5 ways to follow us so your news feed will never lack new art and inspiration. Get daily updates for video game art galleries packed with loads of concept art, character artwork, and promotional pictures.</div>
+</div>
+
+<div id="footer_l">
+	<p class="ftr_title">WEBSITE INFO</p>
+	&copy; Creative Uncut 2003&ndash;2021<br>
+	<a href="https://www.creativeuncut.com/privacy.html">Privacy Policy &amp; Amazon Disclaimer</a><br>
+	<a href="https://www.creativeuncut.com/about-us.html">About Us</a><br>
+	<a href="https://www.creativeuncut.com/links.html">Affiliated Sites &amp; Links</a><br>
+</div>
+
+</div>
+
+<script async defer data-pin-hover="true" src="//assets.pinterest.com/js/pinit.js"></script>
+</div>
+
+
+<div id="fs-select-side-wall"></div></body>
+
+
+</html>
