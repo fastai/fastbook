@@ -1,0 +1,59 @@
+Deep Learning Course Forums
+Log In
+
+fastai v2 and the new course were released on August 21st. fastai v2 is not API-compatible with fastai v1 (it’s a from-scratch rewrite). It’s much easier to use, more powerful, and better documented than v1, and there’s even a book (624 pages!) about it. The book is also available for free as Jupyter notebooks. fastai v2 is documented here: http://docs.fast.ai/ .
+
+To see updates to fastai v2, please see the following thread:
+
+This topic is for announcements of all breaking changes in the API or new features you can use. You should subscribe to it to receive notifications about those. It’s locked and closed so that only the admins can post in it. The developer chat is the place to discuss development of the library. The full list of changes is always available in the changelog.
+To get notified of changes to that thread, please selecting “Watching” from the menu at the bottom:
+
+image
+fastai v2 only works with the 2020 version of the course. It won’t work with any previous version. If you’re currently working through one of the existing courses, keep going! :slight_smile: The basic concepts you’re learning will be just as useful for fastai v2. There is no 2020 version of part 2 of the course recorded yet, and we don’t have a date for when that might happen.
+
+The 2020 version of the course includes material covering both machine learning and deep learning. So there won’t be a separate “Introduction to Machine Learning” (although the old one will still be available).
+
+fastai v1 will continue to be available, and we’ll continue to provide bug fixes (and accept pull requests for it). To pin your fastai version to v1 (i.e., to avoid it upgrading automatically to v2), run the following command (assuming you use conda):
+
+ echo 'fastai 1.*' >> $CONDA_PREFIX/conda-meta/pinned
+Then, when you’re ready to upgrade to v2, remove the $CONDA_PREFIX/conda-meta/pinned file.
+
+The github repo for fastai v1 will shortly be renamed to fastai/fastai1, and the repo for v2 will shortly be renamed from fastai/fastai2 to fastai/fastai.
+
+If you’re interested in getting involved in fastai2 development, or just watching my live coding sessions (which I do most days), connect to our Discord server, which is where I stream my live coding, and there’s some real-time fastai2 development discussion:
+
+ Discord
+
+Join the fast.ai Discord Server!
+Check out the fast.ai community on Discord - hang out with 2,510 other members and enjoy free voice and text chat.
+
+All fastai development forum discussion is in #fastai-users:fastai-dev. The forums are the best place to ask questions.
+
+CUDA error: Out of memory using the functions learner.lr_find() and learner.fit_one_cycle()
+Part 1 (2020)
+
+Mausoleoo
+Mauricio Gómez
+9h
+Hi everyone,
+
+I have a problem with the memory of my GPU, when I try to use the functions lr_find() and fit_one_cycle()
+
+RuntimeError: CUDA out of memory. Tried to allocate 1024.00 MiB (GPU 0; 10.75 GiB total capacity; 9.16 GiB already allocated; 79.06 MiB free; 9.79 GiB reserved in total by PyTorch)
+
+I am using images of 1024 x 1024 and a GeForce RTX 2080 Ti and fastai 2.3.0, I tried to do it with different batch size (128,64,32,16,8,4) even with batch size 1 and I keep having the same problem.
+
+I already tried with these 3 solutions
+
+gc.collect()
+torch.cuda.empty_cache()
+
+kill -9 PID
+
+I tried with CUDA 11 and CUDA 10.2
+
+(I also restart the kernel frequently)
+
+and the result is the same. Please if anyone has experience with this, please help me.
+
+Regards
