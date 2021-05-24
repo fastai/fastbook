@@ -3,7 +3,7 @@
 
 # The fastai book
 
-Una colleción de Jupyter Notebooks que cubren una introducción al aprendizaje profundo, [fastai](https://docs.fast.ai/) y [PyTorch](https://pytorch.org/). fastai es una API en capas para aprendizaje profundo; puede obtener más información en [la publicación](https://www.mdpi.com/2078-2489/11/2/108). Todos los documentos incluidos en este repositorio presentan derechos de autor de Jeremy Howard y Sylvain Gugger, 2020 en adelante.
+Una colección de Jupyter Notebooks que cubren una introducción al aprendizaje profundo, [fastai](https://docs.fast.ai/) y [PyTorch](https://pytorch.org/). fastai es una API en capas para aprendizaje profundo; puede obtener más información en [la publicación](https://www.mdpi.com/2078-2489/11/2/108). Todos los documentos incluidos en este repositorio presentan derechos de autor de Jeremy Howard y Sylvain Gugger, 2020 en adelante.
 
 Estos Notebooks son usados para [el cursos en línea masivos y abiertos (MOOC)](https://course.fast.ai) y forman la base del [libro](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527), el cual se encuentra actualmente disponible para su compra. El libro no tiene las mismas restricciones de GPL que se incluyen en este borrador.
 
