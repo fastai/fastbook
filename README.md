@@ -17,6 +17,28 @@ This is an early draft. If you get stuck running notebooks, please search the [f
 
 If you make any pull requests to this repo, then you are assigning copyright of that work to Jeremy Howard and Sylvain Gugger. (Additionally, if you are making small edits to spelling or text, please specify the name of the file and a very brief description of what you're fixing. It's difficult for reviewers to know which corrections have already been made. Thank you.)
 
+## Installation
+You can use fastai without any installation by using [Google Colab](https://colab.research.google.com/). In fact, every page of this documentation is also available as an interactive notebook - click "Open in colab" at the top of any page to open it (be sure to change the Colab runtime to "GPU" to have it run fast!) See the fast.ai documentation on [Using Colab](https://course.fast.ai/start_colab) for more information.
+
+You can install fastai on your own machines with conda (highly recommended), as long as you're running Linux or Windows (NB: Mac is not supported). For Windows, please see the "Running on Windows" for important notes.
+
+If you're using [miniconda](https://docs.conda.io/en/latest/miniconda.html) (recommended) then run (note that if you replace conda with [mamba](https://github.com/mamba-org/mamba) the install process will be much faster and more reliable):
+
+`conda install -c fastchan fastai`
+
+...or if you're using [Anaconda](https://www.anaconda.com/products/individual) then run:
+
+`conda install -c fastchan fastai anaconda`
+
+To install with pip, use: pip install fastai. If you install with pip, you should install PyTorch first by following the PyTorch [installation instructions](https://pytorch.org/get-started/locally/).
+
+If you plan to develop fastai yourself, or want to be on the cutting edge, you can use an editable install (if you do this, you should also use an editable install of [fastcore](https://github.com/fastai/fastcore) to go with it.) First install PyTorch, and then:
+
+```
+git clone https://github.com/fastai/fastai
+pip install -e "fastai[dev]"
+```
+
 ## Citations
 
 If you wish to cite the book, you may use the following:
