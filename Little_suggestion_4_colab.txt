@@ -1,0 +1,5 @@
+from fastai.vision.all import *
+
+might not work when using Colab,try removing .all
+
+from fastai.vision import *
