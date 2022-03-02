@@ -40,10 +40,8 @@ def proc_nb(fname, dest):
     clean_nb(nb, clear_all=True)
 
     source = [x+'\n' for x in open(SETUP_PATH, 'r').read().split('\n')]
-    cells = [nbformat.v4.new_code_cell(source=source)]
-    cells.extend(nb['cells'])
+    nb['cells'][0] = nbformat.v4.new_code_cell(source=source)
 
-    nb['cells'] = cells
     with open(dest/fname.name, 'w') as f: nbformat.write(nb, f, version=4)
 
 def proc_all(path='.', dest_path='clean'):
