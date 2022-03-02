@@ -1,0 +1,10 @@
+## This cell is automatically generated
+FASTAI_DIR = '/content/gdrive/MyDrive/fastai_course'
+SHARED_DIR = '/content/gdrive/Shareddrives/FastAICourse/datasets/'
+def setup():
+    !pip install -Uqq fastai==2.5.3 fastbook fastcore==1.3.26
+    import fastbook
+    fastbook.setup_book()
+    !mkdir -p $FASTAI_DIR
+
+setup()

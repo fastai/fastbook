@@ -8,6 +8,12 @@ from fastcore.all import *
 _re_header = re.compile(r'^#+\s+\S+')
 _re_clean  = re.compile(r'^\s*#\s*clean\s*')
 
+
+def make_cell(code):
+    cell = {'cell_type': 'code', 'metadata': {}, 'outputs': [], 'execution_count': None}
+    cell['source'] = [x+'\n' for x in code.split('\n')]
+    return cell
+
 def is_header_cell(cell): return _re_header.search(cell['source']) is not None
 def is_clean_cell(cell): return _re_clean.search(cell['source']) is not None
 
@@ -24,12 +30,20 @@ def clean_tags(cell):
         cell["source"] = re.sub(r'#\s*' + attr + r'.*?($|\n)', '', cell["source"])
     return cell
 
+SETUP_PATH = 'setup_cell'
+
 def proc_nb(fname, dest):
     nb = read_nb(fname)
     i = get_stop_idx(nb['cells'])
     nb['cells'] = [clean_tags(c) for j,c in enumerate(nb['cells']) if
                    c['cell_type']=='code' or is_header_cell(c) or is_clean_cell(c) or j >= i]
     clean_nb(nb, clear_all=True)
+
+    source = [x+'\n' for x in open(SETUP_PATH, 'r').read().split('\n')]
+    cells = [nbformat.v4.new_code_cell(source=source)]
+    cells.extend(nb['cells'])
+
+    nb['cells'] = cells
     with open(dest/fname.name, 'w') as f: nbformat.write(nb, f, version=4)
 
 def proc_all(path='.', dest_path='clean'):
