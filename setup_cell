@@ -6,5 +6,6 @@ def setup():
     import fastbook
     fastbook.setup_book()
     !mkdir -p $FASTAI_DIR
+    !cp -r {SHARED_DIR}finn_pets finn_pets
 
 setup()
