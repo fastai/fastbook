@@ -4,6 +4,8 @@ from nbdev.showdoc import *
 from ipywidgets import widgets
 from pandas.api.types import CategoricalDtype
 
+import json
+
 import matplotlib as mpl
 # mpl.rcParams['figure.dpi']= 200
 mpl.rcParams['savefig.dpi']= 200
