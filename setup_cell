@@ -1,10 +1,27 @@
 ## This cell is automatically generated
+import os.path
+from os import path
+
+# set this value to True if you would like to persist datasets locally
+# (including changes to these datasets)
+persisted_data = True
 SHARED_DIR = '/content/gdrive/Shareddrives/FastAICourse/datasets/'
-def setup():
+LOCAL_DIR = '/content/gdrive/MyDrive/SchibstedFastAICourse/datasets/'
+TEMPORARY_PETS_DIR = './pets/'
+LOCAL_PETS_DIR = LOCAL_DIR+'pets/'
+
+def setup(persisted_data):
     !pip install -Uqq fastai==2.5.5 fastbook fastcore==1.4.1 tornado==5.1.1
     import fastbook
     fastbook.setup_book()
-    !tar xfz {SHARED_DIR}finn_animals.tar.gz
+    if persisted_data:
+      # check for existing copy on permanent drive location
+      if not path.exists(LOCAL_PETS_DIR):
+        # if local folder does not exist, create folder and untar data
+        !mkdir -p {LOCAL_DIR}
+        !tar xfz {SHARED_DIR}finn_animals.tar.gz --directory {LOCAL_DIR}
+    else:
+      # untar training data to temporary drive location
+      !tar xfz {SHARED_DIR}finn_animals.tar.gz
 
-FINN_PETS_DIR='./pets/'
-setup()
+setup(persisted_data)
