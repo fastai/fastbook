@@ -5,6 +5,8 @@ from ipywidgets import widgets
 from pandas.api.types import CategoricalDtype
 
 import matplotlib as mpl
+import json
+
 # mpl.rcParams['figure.dpi']= 200
 mpl.rcParams['savefig.dpi']= 200
 mpl.rcParams['font.size']=12
