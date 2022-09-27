@@ -69,8 +69,8 @@ def search_images_ddg(key,max_n=200):
              pass
 
 
-def plot_function(f, tx=None, ty=None, title=None, min=-2, max=2, figsize=(6,4)):
-    x = torch.linspace(min,max)
+def plot_function(f, tx=None, ty=None, title=None, min=-2, max=2, steps=100, figsize=(6,4)):
+    x = torch.linspace(min,max,steps)
     fig,ax = plt.subplots(figsize=figsize)
     ax.plot(x,f(x))
     if tx is not None: ax.set_xlabel(tx)
