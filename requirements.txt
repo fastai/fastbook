@@ -1,4 +1,4 @@
-fastai>=2.0.0
+fastai==2.7.10
 graphviz
 ipywidgets
 matplotlib
