@@ -1,6 +1,7 @@
-[English](./README.md) / [Spanish](./README_es.md) / [Korean](./README_ko.md) / [Chinese](./README_zh.md) / [Bengali](./README_bn.md) / [Indonesian](./README_id.md) / [Italian](./README_it.md) / [Portuguese](./README_pt.md) / [Vietnamese](./README_vn.md) / [Japanese](./README_ja.md) / [Turkish] (./README_tr.md)
+[English](./README.md) / [Spanish](./README_es.md) / [Korean](./README_ko.md) / [Chinese](./README_zh.md) / [Bengali](./README_bn.md) / [Indonesian](./README_id.md) / [Italian](./README_it.md) / [Portuguese](./README_pt.md) / [Vietnamese](./README_vn.md) / [Japanese](./README_ja.md) / [Turkish](./README_tr.md)
+# Fastai kitabı
 
-# fastai kitabı
+Bu Jupyter notları Derin Öğrenme, [fastai](https://docs.fast.ai/) ve [PyTorch](https://pytorch.org/) hakkında eğitim içermektedir. Fastai, Derin Öğrenme tekniklerine özel katmanlı API içermektedir; daha fazla bilgi için bkz.[the fastai paper](https://www.mdpi.com/2078-2489/11/2/108). Bu depodaki her şeyin telif hakkı, 2020'den itiabaren, Jeremy Howard ve Sylvain Gugger'a aittir. Seçili okunabilen bölümlere [buradan ulaşabilirsiniz](https://fastai.github.io/fastbook2e/).
 
 These notebooks cover an introduction to deep learning, [fastai](https://docs.fast.ai/), and [PyTorch](https://pytorch.org/). fastai is a layered API for deep learning; for more information, see [the fastai paper](https://www.mdpi.com/2078-2489/11/2/108). Everything in this repo is copyright Jeremy Howard and Sylvain Gugger, 2020 onwards. A selection of chapters is available to [read online here](https://fastai.github.io/fastbook2e/).
 
