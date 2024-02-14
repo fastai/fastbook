@@ -65,7 +65,8 @@ def search_images_ddg(key,max_n=200):
                  if max_n < 1: return L(set(urls))     # dedupe
              if 'next' not in data: return L(set(urls))
              requestUrl = url + data['next']
-         except:
+         except Exception as e:
+             print('Error: %s. Contiuing...' % e)
              pass
 
 
