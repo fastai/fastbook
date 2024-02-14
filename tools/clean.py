@@ -4,6 +4,7 @@ import nbformat
 from nbdev.export import *
 from nbdev.clean import *
 from fastcore.all import *
+from execnb.nbio import *
 
 _re_header = re.compile(r'^#+\s+\S+')
 _re_clean  = re.compile(r'^\s*#\s*clean\s*')
