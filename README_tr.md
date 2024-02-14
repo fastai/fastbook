@@ -3,7 +3,7 @@
 
 Bu Jupyter Notebook'ları, Derin Öğrenme, [fastai](https://docs.fast.ai/) ve [PyTorch](https://pytorch.org/) hakkında eğitim içermektedir. Fastai, Derin Öğrenme tekniklerine özel katmanlı API içermektedir; daha fazla bilgi için [bkz.](https://www.mdpi.com/2078-2489/11/2/108) Bu Repodaki her şeyin telif hakkı, 2020'den itiabaren, Jeremy Howard ve Sylvain Gugger'a aittir. Seçili okunabilen bölümlere [buradan ulaşabilirsiniz](https://fastai.github.io/fastbook2e/).
 
-Repoda bulunan Jupyter Notebook'lar, [bu çevrimiçi kurs](https://course.fast.ai) için hazırlanmıştır. Ayrıca, şuan satılık olan, [bu kitabın](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527) temellerini oluşturmaktadır.
+Repoda bulunan Jupyter Notebook'ları, [bu çevrimiçi kurs](https://course.fast.ai) için hazırlanmıştır. Ayrıca, şuan satılık olan, [bu kitabın](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527) temellerini oluşturmaktadır.
 Kitap, aynı GPL kısıtlamalarına tabii değildir.
 
 Jupyter Notebook'ları ve python `.py` dosyalarının tamamı GPL v3 ile lisanslanmıştı; daha fazla detay için LICENSE'a bakınız. Geri kalanı (notebooklarda bulunan markdown hücreleri dahil olmak üzere), herhangi bir yeniden dağıtım veya format değişmi için, Repo'yu çatallamak ve özel kullanımınız hariç, lisanslanmamıştır. Ticari veya yayın amaçlı kullanıma izin verilmez. Deri Öğrenme konularını öğrenebilmeniz amacıyla bu içeriği ücretsiz sunuyoruz. Dolayısıyla, lütfen bahsi geçen kısıtlamalara ve telif hakkına saygı gösteriniz. 
