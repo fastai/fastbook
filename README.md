@@ -21,8 +21,7 @@ You can open any chapter of the book in Colab by clicking on one of these links:
 If you are running this in basic computer and you are using pip here is what you should do to run this book. 
 For mac or linux
 ```bash 
-chmod a+x os_linux_mac_start.sh
-os_linux_mac_start.sh
+source os_linux_mac_start.sh
 ```
 
 For Windows 
