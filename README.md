@@ -19,7 +19,7 @@ You can open any chapter of the book in Colab by clicking on one of these links:
 
 ## Contributions
 
-If you make any pull requests to this repo, then you are assigning copyright of that work to Jeremy Howard and Sylvain Gugger. (Additionally, if you are making small edits to spelling or text, please specify the name of the file and a very brief description of what you're fixing. It's difficult for reviewers to know which corrections have already been made. Thank you.)
+If you make any pull requests to this repo, then you are assigning the copyright of that work to Jeremy Howard and Sylvain Gugger. (Additionally, if you are making small edits to spelling or text, please specify the file's name and a very brief description of what you're fixing. It's difficult for reviewers to know which corrections have already been made. Thank you.)
 
 ## Citations
 
