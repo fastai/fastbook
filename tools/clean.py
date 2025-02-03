@@ -4,6 +4,7 @@ import nbformat
 from nbdev.export import *
 from nbdev.clean import *
 from fastcore.all import *
+from execnb.nbio import *
 
 _re_header = re.compile(r'^#+\s+\S+')
 _re_clean  = re.compile(r'^\s*#\s*clean\s*')
@@ -30,6 +31,11 @@ def proc_nb(fname, dest):
     nb['cells'] = [clean_tags(c) for j,c in enumerate(nb['cells']) if
                    c['cell_type']=='code' or is_header_cell(c) or is_clean_cell(c) or j >= i]
     clean_nb(nb, clear_all=True)
+    if 'path_' in nb:
+        del nb['path_']
+    for c in nb['cells']:
+        if 'idx_' in c:
+            del c['idx_']
     with open(dest/fname.name, 'w') as f: nbformat.write(nb, f, version=4)
 
 def proc_all(path='.', dest_path='clean'):
