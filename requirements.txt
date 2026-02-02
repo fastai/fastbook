@@ -1,9 +1,33 @@
-fastai>=2.0.0
-graphviz
+# Core fastai/fastbook packages
+fastbook>=0.0.28
+fastai>=2.7.0
+fastcore>=1.5.0
+fastdownload>=0.0.7
+fastprogress==1.0.3
+
+# PyTorch for Apple Silicon
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Jupyter environment
+jupyter
+jupyterlab
 ipywidgets
-matplotlib
-nbdev>=0.2.12
-pandas
-scikit_learn
-azure-cognitiveservices-search-imagesearch
+jupyter-mcp-server
+jupyterlab-widgets
+
+# Data science essentials
+numpy>=1.21.0,<3.0.0
+pandas>=1.3.0
+matplotlib>=3.5.0
+scikit-learn>=1.0.0
+scipy>=1.7.0
+pillow>=9.0.0
+
+# Other dependencies
 sentencepiece
+graphviz
+beautifulsoup4
+requests
+packaging>=21.0

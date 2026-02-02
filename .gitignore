@@ -9,3 +9,4 @@ __pycache__/
 .gitconfig
 .ipynb_checkpoints/
 env/
+.claude/

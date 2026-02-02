@@ -10,6 +10,15 @@ The code in the notebooks and python `.py` files is covered by the GPL v3 licens
 
 If you see someone hosting a copy of these materials somewhere else, please let them know that their actions are not allowed and may lead to legal action. Moreover, they would be hurting the community because we're not likely to release additional materials in this way if people ignore our copyright.
 
+## Quick Start - Apple SIlicon 2026
+
+- Install Miniconda
+- `conda create -n fastai python=3.12`
+- `cd fastbook/`
+- `conda activate fastai`
+- `pip install -r requirements.txt`
+- `python -m ipykernel install --user --name fastai_env --display-name="fastai env"`
+
 ## Colab
 
 Instead of cloning this repo and opening it on your machine, you can read and work with the notebooks using [Google Colab](https://research.google.com/colaboratory/). This is the recommended approach for folks who are just getting started -- there's no need to set up a Python development environment on your own machine, since you can just work directly in your web-browser.
