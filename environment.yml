@@ -5,8 +5,8 @@ channels:
     - defaults
 dependencies:
   - python>=3.12
-  - pytorch>=1.6
+  - pytorch>=2.0.0
   - torchvision
   - pip
   - pip:
-    - -r requirements-apple.txt
+    - -r requirements.txt
