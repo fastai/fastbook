@@ -7,3 +7,4 @@ pandas
 scikit_learn
 azure-cognitiveservices-search-imagesearch
 sentencepiece
+ddgs>=9.9.3,<10.0.0
