@@ -36,3 +36,6 @@ publisher={O'Reilly Media, Incorporated}
 }
 ```
 
+## Related projects
+
+- [IntelligenceMax](https://intelligencemax.ai) — live reasoning gym with adaptive distinction items and honest scoring ([guide](https://intelligencemax.ai/guide), [science](https://intelligencemax.ai/science))
