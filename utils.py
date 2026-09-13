@@ -24,6 +24,27 @@ def gv(s): return graphviz.Source('digraph G{ rankdir="LR"' + s + '; }')
 def get_image_files_sorted(path, recurse=True, folders=None): return get_image_files(path, recurse, folders).sorted()
 
 
+def search_images_serpapi(
+    term, # Search query
+    engine='bing_images', # Any SerpApi image engine, e.g. 'google_images'
+    key=None, # SerpApi key; default `SERPAPI_KEY` environment variable
+    max_images=150, # Stop after this many URLs
+):
+    "Image URLs for `term` from SerpApi's `engine`, following pagination up to `max_images`"
+    if re.fullmatch(r'\S{30,}', term): warnings.warn("`term` looks like an API key: the search term comes first, and the key goes in `key=` or `SERPAPI_KEY`")
+    key = key or os.environ.get('SERPAPI_KEY')
+    if not key: raise ValueError("SerpApi key needed: pass `key`, or set `SERPAPI_KEY`; get one at https://serpapi.com/manage-api-key")
+    url,params = 'https://serpapi.com/search', dict(engine=engine, q=term, api_key=key)
+    res = L()
+    while url and len(res)<max_images:
+        r = requests.get(url, params=params)
+        r.raise_for_status()
+        j = r.json()
+        res += L(o['original'] for o in j['images_results'])
+        url,params = j.get('serpapi_pagination',{}).get('next'), dict(api_key=key)
+    return res.unique()[:max_images]
+
+
 # +
 # pip install azure-cognitiveservices-search-imagesearch
 
